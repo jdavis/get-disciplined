@@ -1,4 +1,14 @@
+/* Picture of the Week is here */
 div.titlebox {
     padding-top: 345px;
     background: transparent url(%%GetDisciplined%%) no-repeat top left;
+}
+
+/* To change readers to Warriors */
+.subscribers span.number:after {
+    content: " Warriors";
+}
+
+.subscribers span.word {
+    display: none;
 }
