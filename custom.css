@@ -12,3 +12,15 @@ div.titlebox {
 .subscribers span.word {
     display: none;
 }
+
+
+/*align the submit link box, the community settings box, and edit flair box to the center */
+.create-reddit, .flair-settings, .tabpane-content, .submit.content, .flair-settings + .tabmenu {
+    width: 800px; /* aprox size of the center box + the sidebox */
+    margin: auto; /* auto makes it centralize, you might want to change the margin px size */
+}
+
+/* when editing the flair setting, this is needed to be able to centralize the bottom tabmenu */
+.flair-settings + .tabmenu {
+    display: block;
+}
