@@ -4,6 +4,35 @@ div.titlebox {
     background: transparent url(%%GetDisciplined%%) no-repeat top left;
 }
 
+#header {
+    height: 169px;
+    background-image: url(%%header-back%%);
+    background-position: 0px 19px;
+    background-repeat: no-repeat;
+    background-color: #2A1C59;
+
+}
+
+#header-bottom-left {
+    position: absolute;
+    bottom: 0; /* put the tob tapmenu in the right place */
+}
+
+.pagename a {
+    color: white;
+}
+.pagename {
+    color: white;
+    font-size: 1.80em;
+}
+
+/* side menu */
+.side {
+    box-shadow: -2px 3px 50px 1px #D6DEEC;
+    padding: 3px;
+    background-color: #F7F7F7;
+}
+
 /* To change readers to Warriors */
 .subscribers span.number:after {
     content: " Warriors";
@@ -23,4 +52,8 @@ div.titlebox {
 /* when editing the flair setting, this is needed to be able to centralize the bottom tabmenu */
 .flair-settings + .tabmenu {
     display: block;
+}
+
+.footer {
+    box-shadow: 0px 0px 20px 1px #C1CDE0;
 }
