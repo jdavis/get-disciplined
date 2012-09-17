@@ -1,3 +1,20 @@
+/* Color Official Announcements on the homepage */
+.thing .title[href*='official_announcement'] {
+    color: red;
+}
+
+.thing .title[href*='official_announcement']:visited {
+    color: red;
+}
+
+.thing .title.loggedin[href*='official_announcement'] {
+    color: red;
+}
+
+.thing .title.loggedin[href*='official_announcement']:visited {
+    color: red;
+}
+
 /* Picture of the Week is here */
 div.titlebox {
     padding-top: 345px;
