@@ -21,6 +21,7 @@ div.titlebox {
     background: transparent url(%%GetDisciplined%%) no-repeat top left;
 }
 
+/* gradient in the header */
 #header {
     height: 169px;
     background: #7db9e8; /* Old browsers */
@@ -52,54 +53,39 @@ div.titlebox {
     position: absolute;
     color: white;
     font-size: 55px;
-    top: -106px;
+    bottom: 87px;
     letter-spacing: 5px;
     text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
 }
 
 
 .pagename:before{
-    content: "Motivation is the start, but if it's not solidified into discipline,";
-    text-align: center;
-    color: white;
-    width: 509px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: -36px;
-    position: absolute;
-    text-shadow: 0px 0px 10px white, 0px 0px 180px white;
+    content: "''Motivation is the start, but if it's not solidified into discipline,";
+    bottom: 66px;
 }
 
 #header-bottom-left:before{
     content: "it usually fades away into regret pretty quickly";
-    text-align: center;
-    color: white;
-    width: 509px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    top: -14px;
-    position: absolute;
-    text-shadow: 0px 0px 10px white, 0px 0px 180px white;
-    font-weight: bold;
-    font-size: 1.2em;
-    font-variant: small-caps;
+    bottom: 44px;
 }
 
 #header-bottom-left:after{
-    content: "once you realize you never acted on it.";
+    content: "once you realize you never acted on it.''";
+    bottom: 22px;
+}
+
+/* quote's white shadow */
+.pagename:before, #header-bottom-left:before, #header-bottom-left:after {
     text-align: center;
     color: white;
     width: 509px;
     margin: auto;
     left: 0;
     right: 0;
-    top: 8px;
     position: absolute;
-    text-shadow: 0px 0px 10px white, 0px 0px 180px white;
+    text-shadow: 0px 0px 10px white;
     font-weight: bold;
-    font-size: 1.2em;
+    font-size: 14px;
     font-variant: small-caps;
 }
 
