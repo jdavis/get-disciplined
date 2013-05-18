@@ -1,15 +1,18 @@
+1. [Get Disciplined FAQ](http://www.reddit.com/r/getdisciplined/wiki/index)
+
 # Purpose #
 
-Everyone needs help getting to where they want to be. Help others
-achieve discipline by posting what helps you.
+Everyone needs help getting to where they want to be. Help others achieve
+discipline by posting what helps you.
 
 # Rules for Submitting #
 
-* **Do** include a few sentences about where you want the discussion to go, no matter what you are posting. That includes links/images!
+* **Do** include a few sentences about where you want the discussion to go, no
+  matter what you are posting. That includes links/images!
 
 * **Do** care about quality.
 
-* **Do not** post blog spam or any websites that want to take one''ones money.
+* **Do not** post blog spam or any websites that want to take one's money.
 
 * **Do not** post memes. There are other subreddits for that.
 
@@ -26,6 +29,7 @@ achieve discipline by posting what helps you.
 | /r/MotivateMe            | /r/CrossFit           |
 | /r/FeelGood              | /r/100PushUps         |
 | /r/GotMotivated          | /r/90DaysGoal         |
+| /r/LifeRPG               |                       |
 
 
 | Remove Bad Habits        |   Improvement         |
@@ -35,6 +39,6 @@ achieve discipline by posting what helps you.
 | /r/StopDrinking          | /r/ZenHabits          |
 | /r/NoFap                 | /r/SocialSkills       |
 | /r/GetOutOfBed           | /r/SelfHelpHub        |
-| /r/StopDitching          | /r/MeditationPractice |
+| /r/StopDitching          | /r/Meditation         |
 | /r/PornFree              | /r/Purpose            |
 | /r/StopSmoking           | /r/SelfHelp           |
