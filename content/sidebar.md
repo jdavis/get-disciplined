@@ -51,3 +51,4 @@ achieve discipline by posting what helps you.
 | /r/StopDitching          | /r/Meditation |
 | /r/PornFree              | /r/Purpose            |
 | /r/StopSmoking           | /r/SelfHelp           |
+|                          | /r/howtonotgiveafuck  |
