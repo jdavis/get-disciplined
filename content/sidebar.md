@@ -43,12 +43,13 @@ achieve discipline by posting what helps you.
 
 | Remove Bad Habits        |   Improvement         |
 |:-------------------------|----------------------:|
-| /r/StopGaming            | /r/DecidingToBeBetter |
-| /r/StopSelfHarm          | /r/LifeImprovement    |
-| /r/StopDrinking          | /r/ZenHabits          |
-| /r/NoFap                 | /r/SocialSkills       |
-| /r/GetOutOfBed           | /r/SelfHelpHub        |
-| /r/StopDitching          | /r/Meditation |
-| /r/PornFree              | /r/Purpose            |
-| /r/StopSmoking           | /r/SelfHelp           |
-|                          | /r/HowToNotGiveAFuck  |
+| /r/GetOutOfBed           | /r/DecidingToBeBetter |
+| /r/NoFap                 | /r/HowToNotGiveAFuck  |
+| /r/PornFree              | /r/LifeImprovement    |
+| /r/StopDitching          | /r/Meditation         |
+| /r/StopDrinking          | /r/ProductivePenPals/ |
+| /r/StopGaming            | /r/Purpose            |
+| /r/StopSelfHarm          | /r/SelfHelp           |
+| /r/StopSmoking           | /r/SelfHelpHub        |
+|                          | /r/SocialSkills       |
+|                          | /r/ZenHabits          |
