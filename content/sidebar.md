@@ -25,6 +25,29 @@ achieve discipline by posting what helps you.
 
 * **Do not** post memes. There are other subreddits for that.
 
+# Tag your post #
+
+- **[Meta]** for any thoughts or discussion regarding the getdisciplined
+  subreddit.
+
+- **[Question]** for questions regarding getting disciplined and improving your
+  life.
+
+- **[Discussion]** for discussion of concepts relating to getting disciplined
+  and improving your life.
+
+- **[NeedAdvice]** for posts asking for help with regards to getting disciplined
+  and improving your life. (This is really a subtag of question and so may be
+  removed later on)
+
+- **[Method]** for posts discussing a particular method of getting disciplined.
+  (This is a subtag of discussion and may be removed)
+
+- **[Advice]** for posts where users want to share key information about what
+  worked for them when getting disciplined.
+
+- **[Plan]** for posts asking for advice regarding a certain plan of action
+  towards achieving a goal.
 
 # Other Subreddits #
 
