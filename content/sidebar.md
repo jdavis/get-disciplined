@@ -1,20 +1,18 @@
-# Before You Post #
+# Before You Post
 
 1. Read the [Get Disciplined
    FAQ](http://www.reddit.com/r/getdisciplined/wiki/index)
 2. Read the [Wiki](http://www.reddit.com/r/getdisciplined/wiki/index).
 3. Read the [Wiki](http://www.reddit.com/r/getdisciplined/wiki/index) again.
-4. Read the [Wiki](http://www.reddit.com/r/getdisciplined/wiki/index) one
-last time.
 3. Be sure to do a search to see if your question has already been
 answered.
 
-# Purpose #
+# Purpose
 
 Everyone needs help getting to where they want to be. Help others
 achieve discipline by posting what helps you.
 
-# Rules for Submitting #
+# Rules for Submitting
 
 * **Do** include a few sentences about where you want the discussion to go, no
   matter what you are posting. That includes links/images!
@@ -25,7 +23,7 @@ achieve discipline by posting what helps you.
 
 * **Do not** post memes. There are other subreddits for that.
 
-# Tag your post #
+# Tag your Post
 
 - **[Meta]** for any thoughts or discussion regarding the getdisciplined
   subreddit.
@@ -49,31 +47,52 @@ achieve discipline by posting what helps you.
 - **[Plan]** for posts asking for advice regarding a certain plan of action
   towards achieving a goal.
 
-# Other Subreddits #
+# Other Subreddits
 
-| Motivation               | Health                |
-|:-------------------------|----------------------:|
-| /r/GetMotivated          | /r/Fitness            |
-| /r/GetEmployed           | /r/GetWell            |
-| /r/GetStudying           | /r/HealthHub          |
-| /r/MotivationalPics      | /r/C25K               |
-| /r/MotivatedMusic        | /r/LoseIt             |
-| /r/MotivateMe            | /r/CrossFit           |
-| /r/FeelGood              | /r/100PushUps         |
-| /r/GotMotivated          | /r/90DaysGoal         |
-| /r/LifeRPG                 | |
+## Motivation
 
+- /r/GetMotivated
+- /r/GetEmployed
+- /r/GetStudying
+- /r/MotivationalPics
+- /r/MotivatedMusic
+- /r/MotivateMe
+- /r/FeelGood
+- /r/GotMotivated
+- /r/LifeRPG
 
-| Remove Bad Habits        |   Improvement         |
-|:-------------------------|----------------------:|
-| /r/GetOutOfBed           | /r/DecidingToBeBetter |
-| /r/NoFap                 | /r/HowToNotGiveAFuck  |
-| /r/PornFree              | /r/LifeImprovement    |
-| /r/StopDitching          | /r/Meditation         |
-| /r/StopDrinking          | /r/ProductivePenPals/ |
-| /r/StopGaming            | /r/Purpose            |
-| /r/StopSelfHarm          | /r/SelfHelp           |
-| /r/StopSmoking           | /r/SelfHelpHub        |
-|                          | /r/SocialSkills       |
-|                          | /r/ZenHabits          |
-|                          | /r/ResistanceHigh |
+## Health
+
+- /r/Fitness
+- /r/GetWell
+- /r/HealthHub
+- /r/C25K
+- /r/LoseIt
+- /r/CrossFit
+- /r/100PushUps
+- /r/90DaysGoal
+
+## Bad Habits
+
+- /r/GetOutOfBed
+- /r/NoFap
+- /r/PornFree
+- /r/StopDitching
+- /r/StopDrinking
+- /r/StopGaming
+- /r/StopSelfHarm
+- /r/StopSmoking
+
+## Improvement
+
+- /r/DecidingToBeBetter
+- /r/HowToNotGiveAFuck
+- /r/LifeImprovement
+- /r/Meditation
+- /r/ProductivePenPals/
+- /r/Purpose
+- /r/SelfHelp
+- /r/SelfHelpHub
+- /r/SocialSkills
+- /r/ZenHabits
+- /r/ResistanceHigh
