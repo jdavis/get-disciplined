@@ -76,3 +76,4 @@ achieve discipline by posting what helps you.
 | /r/StopSmoking           | /r/SelfHelpHub        |
 |                          | /r/SocialSkills       |
 |                          | /r/ZenHabits          |
+|                          | /r/ResistanceHigh |
