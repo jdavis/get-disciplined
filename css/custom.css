@@ -1,29 +1,16 @@
-/* Color Official Announcements on the homepage */
-.thing .title[href*='official_announcement'] {
-    color: red;
-}
+/*
+ * /r/GetDisciplined Styling
+ *
+ * Source:
+ *      https://github.com/jdavis/get-disciplined
+ *
+ */
 
-.thing .title[href*='official_announcement']:visited {
-    color: red;
-}
+/*
+ * Header
+ */
 
-.thing .title.loggedin[href*='official_announcement'] {
-    color: red;
-}
-
-.thing .title.loggedin[href*='official_announcement']:visited {
-    color: red;
-}
-
-/* Picture of the Week is here */
-div.titlebox {
-    padding-top: 345px;
-    background: transparent url(%%Roosevelt%%) no-repeat top left;
-}
-
-/* gradient in the header */
 #header {
-    height: 169px;
     background: #7db9e8; /* Old browsers */
     background: -moz-linear-gradient(left, #7db9e8, #1e5799); /* FF3.6+ */
     /*background: -webkit-gradient(linear, left top, right top, color-stop(0%,#7db9e8), color-stop(96%,#1e5799));  Chrome,Safari4+ */
@@ -34,108 +21,263 @@ div.titlebox {
     /*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=1 );  IE6-9 */
 }
 
-#header-bottom-left {
-    position: absolute;
-    bottom: 0; /* put the tob tapmenu in the right place */
-    width: 100%; /*so we can centralize the "GetDisciplined" */
-}
-
 .pagename a {
     color: white;
-}
-.pagename:after {
-    content:"GetDisciplined";
-    text-align: center;
-    width: 100%;
-    margin: auto;
-    left: 0;
-    right: 0;
-    position: absolute;
-    color: white;
-    font-size: 55px;
-    bottom: 87px;
-    letter-spacing: 5px;
-    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666, 0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    font-size: 20px;
+    text-shadow: black 1px 0px 5px;
 }
 
-
-.pagename:before{
-    content: "''Motivation is the start, but if it's not solidified into discipline,";
-    bottom: 66px;
+.pagename a:hover {
+    text-decoration: none;
 }
 
-#header-bottom-left:before{
-    content: "it usually fades away into regret pretty quickly";
-    bottom: 44px;
-}
+/*
+ * Sidebar
+ */
 
-#header-bottom-left:after{
-    content: "once you realize you never acted on it.''";
-    bottom: 22px;
-}
-
-/* quote's white shadow */
-.pagename:before, #header-bottom-left:before, #header-bottom-left:after {
-    text-align: center;
-    color: white;
-    width: 509px;
-    margin: auto;
-    left: 0;
-    right: 0;
-    position: absolute;
-    text-shadow: 0px 0px 10px white;
-    font-weight: bold;
-    font-size: 14px;
-    font-variant: small-caps;
-}
-
-/* side menu */
 .side {
-    box-shadow: -2px 3px 50px 1px #D6DEEC;
-    padding: 3px;
     background-color: #F7F7F7;
+    border-bottom: 1px solid #d3d3d3;
+    border-left: 1px solid #d3d3d3;
+    margin: 0;
+    padding: 10px 12px;
 }
 
-/* To change readers to Trainees */
-.subscribers span.number:after {
+/* Subscriber & Users Count */
+.subscribers .number:after {
     content: " Trainees";
 }
 
-.subscribers span.word {
+.users-online {
+    display: inline;
+}
+
+.subscribers .word,
+.users-online .word {
     display: none;
 }
 
-
-/*align the submit link box, the community settings box, and edit flair box to the center */
-.create-reddit, .flair-settings, .tabpane-content, .submit.content, .flair-settings + .tabmenu {
-    width: 800px; /* aprox size of the center box + the sidebox */
-    margin: auto; /* auto makes it centralize, you might want to change the margin px size */
+.users-online:before {
+    display: none;
 }
 
-/* when editing the flair setting, this is needed to be able to centralize the bottom tabmenu */
+.users-online .number {
+    color: #000;
+    font-size: 12px;
+    font-style: italic;
+}
+
+.users-online .number:before {
+    content: "(";
+}
+
+.users-online .number:after {
+    content: " here)";
+}
+
+/*
+ * Misc
+ */
+
+.create-reddit, .flair-settings, .tabpane-content, .submit.content, .flair-settings + .tabmenu {
+    margin: auto; /* auto makes it centralize, you might want to change the margin px size */
+    width: 800px; /* aprox size of the center box + the sidebox */
+}
+
+/*
+ * Sidebar
+ */
+
+.titlebox form.toggle {
+    background-color: transparent;
+}
+
+.titlebox .usertext {
+    margin: 15px 0 8px;
+    line-height: 120%;
+    font-size: small;
+}
+
+.titlebox .usertext .md {
+    margin: 0;
+    overflow: visible;
+    padding: 0;
+}
+
+/*
+ * Sidebar Ribbon
+ */
+
+.side .usertext-body h1 {
+    background-color: #5d9bd2;
+    box-shadow: -1px 2px 3px rgba(0,0,0,0.25);
+    color: white;
+    font-weight: normal;
+    line-height: 1.875em;
+    margin: 0 0 0 -0.625em;
+    padding: 0 0.5em;
+    position: relative;
+}
+
+.side .usertext-body h1:before,
+.side .usertext-body h1:after{
+    content: '';
+    display: block;
+    position: absolute;
+}
+
+.side .usertext-body h1:before{
+    background: inherit;
+    height: 100%;
+    left: -0.469em;
+    padding: 0 0 0.438em;
+    width: 0.469em;
+}
+
+.side .usertext-body h1:after{
+    background: rgba(0,0,0,0.35);
+    bottom: -0.313em;
+    box-shadow: inset -1px 2px 2px rgba(0,0,0,0.3);
+    height: 0.313em;
+    left: -0.313em;
+    width: 0.313em;
+}
+
+/*
+ * Submit Buttons
+ */
+
+.side .nub {
+    display: none;
+}
+
+.morelink {
+    height: auto;
+}
+
+.side .submit .morelink a,
+.side .create .morelink a {
+    background-color: #5d9bd2;
+    color: #FFF;
+    font-weight: 400;
+    padding: 6px 0;
+    text-align: center;
+}
+
+.side .submit .morelink a:hover,
+.side .create .morelink a:hover {
+    background-color: #6dabdf;
+}
+
+/*
+ * Search
+ */
+
+#search input {
+    text-align: center;
+}
+
+/*
+ * Link Dropdown
+ */
+
+.side .usertext h2:hover {
+    box-shadow: 0 0;
+    cursor: pointer;
+    background: #deedee;
+}
+
+.side .usertext h2+ul {
+    padding: 0 0 0;
+    margin: 0;
+    z-index: 99999;
+    position: relative;
+    max-height: 0;
+    border: 1px solid #DDD;
+    border-width: 0 1px 0px 1px;
+    overflow: hidden;
+    transition: all 0.8s 0.2s ease;
+    -moz-transition: all 0.8s 0.2s ease;
+    -webkit-transition: all 0.8s 0.2s ease;
+    -o-transition: all 0.8s 0.2s ease;
+}
+
+.side .usertext h2+ul li {
+    display: block;
+    padding: 5px 15px;
+    font-size: 11px;
+    line-height: 15px;
+    background-color: #f2f2f2;
+    border: none;
+    padding: 7px 7px 9px 13px;
+    margin: 0 0 -1px 0;
+    text-align: left;
+    border-top: 1px solid #CCCCCC;
+}
+
+.side .usertext h2:hover+ul,.side .usertext h2+ul:hover {
+    max-height: 900px;
+    border-width: 0 1px 1px 1px;
+}
+
+.side .usertext h2 {
+    font-weight: 300;
+    background-color: #eaeaea;
+    border-left: 6px solid #5f8eb8;
+    font-size: 1.4em;
+    font-size: 15px;
+    padding: 8px 12px 9px 8px;
+    font-size: 1.4em;
+    border-top: none;
+    font-size: 15px;
+    padding: 8px 12px 9px 8px;
+    margin-top: 10px;
+}
+
+.side .usertext h2:hover {
+    border-left: 6px solid #5d9bd2;
+    background-color: #c5dbef;
+    color: #555555;
+}
+
+
+/*
+ * Submission Coloring
+ */
+
+/* Announcements */
+.thing .title[href*='official_announcement'],
+.thing .title[href*='official_announcement']:visited {
+    color: red;
+}
+
+/*
+ * Flair
+ */
+
 .flair-settings + .tabmenu {
     display: block;
 }
 
-/*============================================*/
-/* Wolf badge flair */
-.flair {
+.flair-wolf {
     border: none;
     background:none;
-   }
-.flair:before {
-    background: url(%%Wflair%%) no-repeat scroll -9999px -9999px transparent;
+}
+
+.flair-wolf:before {
+    background: url(%%wolf%%) no-repeat scroll -9999px -9999px transparent;
     display: inline-block;
     height: 21px;
     vertical-align: bottom;
     width: 18px
-    }
+}
+
 .flair-wolf:before {
     content: "";
     background-position: 0 0px
-    }
+}
 
-.flair-Star:before {
+.flair-star:before {
     background: url(%%star%%) no-repeat scroll -9999px -9999px transparent;
     display: inline-block;
     height: 21px;
@@ -143,8 +285,9 @@ div.titlebox {
     width: 21px;
     content: "";
     background-position: 0 0px;
-    }
-.flair-StarN1:before {
+}
+
+.flair-starN1:before {
     background: url(%%starN1%%) no-repeat scroll -9999px -9999px transparent;
     display: inline-block;
     height: 21px;
@@ -152,8 +295,9 @@ div.titlebox {
     width: 30px;
     content: "";
     background-position: 0 0px;
-    }
-.flair-StarN2:before {
+}
+
+.flair-starN2:before {
     background: url(%%starN2%%) no-repeat scroll -9999px -9999px transparent;
     display: inline-block;
     height: 21px;
@@ -161,8 +305,9 @@ div.titlebox {
     width: 30px;
     content: "";
     background-position: 0 0px;
-    }
-.flair-StarN3:before {
+}
+
+.flair-starN3:before {
     background: url(%%starN3%%) no-repeat scroll -9999px -9999px transparent;
     display: inline-block;
     height: 21px;
@@ -170,8 +315,4 @@ div.titlebox {
     width: 30px;
     content: "";
     background-position: 0 0px;
-    }
-
-.footer {
-    box-shadow: 0px 0px 20px 1px #C1CDE0;
 }
