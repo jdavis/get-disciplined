@@ -144,6 +144,10 @@
     width: 0.313em;
 }
 
+.side .content {
+    border: none;
+}
+
 /*
  * Sidebar Buttons
  */
@@ -154,25 +158,69 @@
 
 .side .morelink {
     height: auto;
+    line-height: normal;
+    background-image: none;
+    border: none;
 }
 
-.side .submit .morelink a,
-.side .create .morelink a {
+.side .submit .morelink a {
     background-color: #5d9bd2;
-    color: #FFF;
+    border-radius: 2px;
+    color: white;
     font-weight: 400;
     padding: 6px 0;
     text-align: center;
+    font-size: 14px;
+    padding: 6px 10px;
+    width: inherit;
 }
 
 .side .submit .morelink a:hover,
-.side .create .morelink a:hover {
+.side .create .morelink a:hover,
+.side .helplink:hover {
     background-color: #6dabdf;
 }
 
-.side .create > .spacer {
+/* Hide random section on creating a subredit */
+.side .create > .spacer,
+.side .create .morelink {
     display: none;
 }
+
+/* Moderators h1 */
+.side .helplink+.title h1 {
+    display: none;
+}
+
+/* Message the Moderators Button */
+.side .helplink {
+    background-color: #5d9bd2;
+    border-radius: 2px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 6px 10px;
+    text-align: center;
+    width: 280px;
+}
+
+/*
+ * Warning when submitting
+ */
+
+/*
+.side .submit .morelink:hover:before {
+    content: "";
+    width: 250px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: -15px;
+    right: 300px;
+    background: url("%%warning%%") no-repeat;
+    z-index: 999;
+}
+*/
 
 /*
  * Search
@@ -266,35 +314,42 @@
 }
 
 .flair:before {
-    background-position: 0 0px;
     content: "";
     display: inline-block;
     height: 21px;
     vertical-align: bottom;
     width: 18px;
+    background-repeat: no-repeat;
 }
 
-.flair-wolf {
-    border: none;
-    background:none;
+.flair {
+    border: 0;
+    padding: 0px 1px 0px 0px;
+    background: none;
+}
+
+.flair:after {
+    font-size: 0;
+    display: none;
+    background: none;
 }
 
 .flair-wolf:before {
-    background: url(%%wolf%%) no-repeat scroll -9999px -9999px transparent;
+    background-image: url(%%wolf%%);
 }
 
 .flair-star:before {
-    background: url(%%star%%) no-repeat scroll -9999px -9999px transparent;
+    background-image: url(%%star%%);
 }
 
 .flair-starN1:before {
-    background: url(%%starN1%%) no-repeat scroll -9999px -9999px transparent;
+    background-image: url(%%starN1%%);
 }
 
 .flair-starN2:before {
-    background: url(%%starN2%%) no-repeat scroll -9999px -9999px transparent;
+    background-image: url(%%starN2%%);
 }
 
 .flair-starN3:before {
-    background: url(%%starN3%%) no-repeat scroll -9999px -9999px transparent;
+    background-image: url(%%starN3%%);
 }
