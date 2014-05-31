@@ -145,14 +145,14 @@
 }
 
 /*
- * Submit Buttons
+ * Sidebar Buttons
  */
 
 .side .nub {
     display: none;
 }
 
-.morelink {
+.side .morelink {
     height: auto;
 }
 
@@ -188,7 +188,7 @@
     background: #deedee;
 }
 
-.side .usertext h2+ul {
+.side .usertext h2 + ul {
     padding: 0 0 0;
     margin: 0;
     z-index: 99999;
@@ -203,7 +203,7 @@
     -o-transition: all 0.8s 0.2s ease;
 }
 
-.side .usertext h2+ul li {
+.side .usertext h2 + ul li {
     display: block;
     padding: 5px 15px;
     font-size: 11px;
@@ -216,7 +216,8 @@
     border-top: 1px solid #CCCCCC;
 }
 
-.side .usertext h2:hover+ul,.side .usertext h2+ul:hover {
+.side .usertext h2:hover + ul,
+.side .usertext h2+ul:hover {
     max-height: 900px;
     border-width: 0 1px 1px 1px;
 }
