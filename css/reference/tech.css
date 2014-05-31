@@ -1,0 +1,1094 @@
+a {
+    color: #256DB6;
+}
+
+a:hover,a:focus {
+    text-decoration: underline;
+}
+
+button {
+    background: #256DB6;
+    color: #FFF!important;
+    display: inline-block;
+    text-align: center;
+    line-height: 2.5;
+    padding: 0 1em;
+    border: none;
+    font-weight: normal;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover,button:focus {
+    background-color: #48D;
+}
+
+button:active {
+    background-color: #185899;
+}
+
+label {
+    cursor: pointer!important;
+}
+
+body {
+    font-family: Verdana,sans-serif;
+    line-height: 1.4;
+    color: #333;
+}
+
+hr {
+    border: none;
+    border-top: 1px dotted #ccc;
+    margin: 1em 0;
+}
+
+.infobar {
+    padding: 1em 1.5em!important;
+    color: #75610D;
+    border: none;
+}
+
+#header-bottom-right {
+    background: #fff;
+    padding: 4px 8px;
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    border-bottom: 0;
+    box-shadow: -1px -1px 1px #c5c5c5;
+}
+
+#header-bottom-right.res-navTop {
+    box-shadow: 0 0;
+}
+
+#header-bottom-right .separator {
+    color: #ccc;
+    margin: 0px 1.2ex 0px 1.2ex;
+}
+
+.pref-lang {
+    font-weight: normal;
+}
+
+#header {
+    background: #C3DBF6;
+    border-bottom: none;
+}
+
+#header-bottom-left {
+    box-shadow: 0 -1px 1px #c5c5c5 inset;
+}
+
+#header-bottom-left .tabmenu {
+    margin: 0 0 0 5px;
+}
+
+#header-img {
+    margin: 5px 0;
+}
+
+.redditname {
+    margin-left: 10px;
+}
+
+.pagename {
+    margin-right: 1em;
+    padding-bottom: 0.2em;
+    display: inline-block;
+}
+
+.pagename,.pagename a {
+    color: #256DB6;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-size: 1.2em;
+    font-weight: normal;
+    font-variant: normal!important;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.pagename a:hover,.pagename a:focus {
+    text-decoration: none;
+    color: #000;
+}
+
+.tabmenu li {
+    margin: 0 1px 0 0;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+}
+
+.tabmenu li a {
+    background-color: #256DB6;
+    color: #fff;
+    padding: 0 1em;
+    line-height: 2.4;
+    cursor: pointer;
+    border: none!important;
+    font-weight: normal;
+    display: inline-block;
+}
+
+.tabmenu li a:hover,.tabmenu li a:focus {
+    text-decoration: none;
+    color: #C2D7FF;
+}
+
+.tabmenu li.selected a {
+    background: #fff;
+    color: #555;
+    text-decoration: none;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    margin: 0 .6em;
+}
+
+.link {
+    margin: 10px;
+}
+
+.content {
+    margin: 2.4em 0 0 1.2em;
+}
+
+.panestack-title {
+    margin-bottom: 5px;
+    border-color: #ccc;
+}
+
+.arrow {
+    width: 26px;
+}
+
+.arrow.up {
+    background-image: url("http://e.thumbs.redditmedia.com/h4Ep4WIe_UeNDs6F.png");
+    background-position: 0 0;
+}
+
+.arrow.upmod {
+    background-image: url("http://c.thumbs.redditmedia.com/MDQurpNKa4a7CqFn.png");
+    background-position: 0 0;
+}
+
+.arrow.down {
+    background-image: url("http://e.thumbs.redditmedia.com/R8TR_K_bl5Rqak2j.png");
+    background-position: 0 0;
+}
+
+.arrow.downmod {
+    background-image: url("http://e.thumbs.redditmedia.com/bF3pI81s2DITR3kv.png");
+    background-position: 0 0;
+}
+
+.midcol {
+    margin-left: 0;
+}
+
+.gadget .midcol {
+    width: 17px;
+}
+
+.link .midcol {
+    width: 40px!important;
+}
+
+.link .score.likes {
+    color: #ff8932;
+}
+
+.link .score.dislikes {
+    color: #2178b8;
+}
+
+.linkinfo {
+    padding: 25px 10px;
+    border: 1px solid #ddd;
+    background: #fff;
+    text-align: center;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+.linkinfo .date {
+    display: none;
+}
+
+.linkinfo .score {
+    color: #777;
+}
+
+.linkinfo .score .number {
+    margin-right: .1em;
+}
+
+.linkinfo .score .number,.linkinfo .score .word {
+    color: #000;
+    font-weight: normal;
+    font-size: 1.8em;
+}
+
+.linkinfo .score .word {
+    margin-right: .2em;
+}
+
+.linkinfo .upvotes {
+    color: #f17432;
+}
+
+.linkinfo .downvotes {
+    color: #2178b8;
+}
+
+.linkinfo .shortlink {
+    display: none;
+}
+
+.users-online::before {
+    background: #2c6;
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+.rank {
+    display: none;
+}
+
+.comment .midcol {
+    width: 30px;
+}
+
+.link .usertext .md {
+    border: 1px solid #ccc;
+    background: #fff;
+    padding: 5px 15px 5px 10px;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+}
+
+#sr-header-area {
+    border: none;
+    background: #377FCE;
+    font-size: 1em;
+    box-shadow: 0 1px 0 #777;
+}
+
+.sr-bar a {
+    color: #fff;
+    text-transform: lowercase;
+    padding: 0.3em 0.7em;
+}
+
+.sr-bar .separator {
+    display: none;
+}
+
+.sr-list .separator {
+    color: #8AAFDD;
+}
+
+#sr-header-area .selected a {
+    color: #fff;
+    background-color: #256DB6;
+    padding: 4px 6px 3px;
+    font-size: 10px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#sr-header-area .selected a:hover,#sr-header-area .selected a:focus {
+    background-color: #48d;
+}
+
+#sr-header-area .width-clip {
+    left: 5px;
+}
+
+#sr-more-link {
+    color: #fff;
+    background-color: #999;
+}
+
+.usertext-edit textarea {
+    border: 1px solid #ddd;
+    padding: 5px 8px;
+}
+
+.usertext-edit textarea:hover,.usertext-edit textarea:focus {
+    border-color: #999;
+    outline: none;
+}
+
+.usertext.border .usertext-body {
+    background: #eef3ff;
+}
+
+.usertext button.cancel {
+    background: #555;
+}
+
+.usertext button.cancel:hover,.usertext button.cancel:focus {
+    background: #666;
+}
+
+.link.last-clicked {
+    padding: 5px;
+    margin-right: 315px;
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+}
+
+.link .title {
+    line-height: 1.25;
+    margin-bottom: 0;
+}
+
+.RESshortcutside,.RESDashboardToggle,.fancy-toggle-button a {
+    text-decoration: none!important;
+}
+
+.RESshortcutside,.RESDashboardToggle,.fancy-toggle-button .active {
+    border: none!important;
+    padding: 3px 10px!important;
+    border-radius: 0!important;
+    line-height: 1.1!important;
+}
+
+.RESshortcutside.remove,.RESDashboardToggle.remove,.fancy-toggle-button .remove {
+    background: #b44!important;
+}
+
+.side {
+    padding-left: 3em;
+    margin-left: 0;
+    margin-right: 0;
+    width: 300px;
+}
+
+.side .spacer {
+    margin: 10px 0;
+}
+
+.side .spacer:first-child {
+    margin-top: 20px;
+}
+
+#search input[type="text"] {
+    width: 96%;
+    font-size: 16px;
+    border-color: #ddd;
+    color: #334;
+    padding: 0.4em 0 0.4em 0.5em;
+    border-radius: 0!important;
+}
+
+#search>input:hover,#search>input:focus {
+    border-color: #999;
+    outline: none;
+}
+
+#searchexpando {
+    border: none;
+    background: #e7f2fa;
+    margin-top: -3px;
+    padding: 1.2em 1em 0.5em;
+}
+
+.sidecontentbox .content {
+    border: none;
+    padding-left: 0;
+    border-top: 1px solid #ddd;
+}
+
+.flairtoggle,.titlebox .tagline {
+    display: none;
+}
+
+.side .usertext-body h1+p {
+    margin: 0;
+}
+
+.side .usertext-body ol {
+    margin: 5px 0 5px 35px;
+}
+
+.side .usertext-body ol li {
+    font-size: 11px;
+    line-height: 15px;
+    padding: 5px 10px 5px 0;
+}
+
+.side .morelink {
+    border: none;
+    height: auto;
+}
+
+.side .morelink .nub {
+    display: none;
+}
+
+.side .morelink a {
+    background-color: #D3E8FF;
+    letter-spacing: 0;
+    display: block;
+    color: #256DB6;
+    text-align: center;
+    font-size: 14px;
+    margin: 0 0 -1em;
+    width: auto;
+    line-height: 1;
+    font-family: Arial,Helvetica,Sans-serif;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.7);
+    padding: 15px 0;
+    box-shadow: 1px 1px 0 #CCC inset;
+    transition: background-color 200ms linear;
+    -webkit-transition: background-color 200ms linear;
+    -moz-transition: background-color 200ms linear;
+    -o-transition: background-color 200ms linear;
+}
+
+.side .morelink a:hover,.side .morelink a:focus {
+    background-color: #48d;
+    text-decoration: none;
+    color: #EEE;
+    text-shadow: 1px 1px 0 #666;
+}
+
+.side .morelink ~ .spacer {
+    display: none;
+}
+
+.submit-text {
+    padding-bottom: 20px;
+}
+
+.submit-text .morelink a {
+    margin-top: 20px;
+}
+
+.side .submit-link::before {
+    content: "Check/r/technology/new before submitting";
+    padding: 0 40px 5px 40px;
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
+    color: #999;
+    display: block;
+}
+
+.side .submit-link:hover::before {
+    color: #8B0000;
+}
+
+.side .md h2 {
+    margin-top: 1.4em;
+    font-size: 1.4em;
+    font-weight: normal;
+}
+
+.side .md h3 {
+    font-size: 1.2em;
+    font-weight: normal;
+    color: #555;
+    margin: 1.2em 0 .2em;
+}
+
+.side .md h4 {
+    font-weight: normal;
+    color: #888;
+    margin-bottom: 1em;
+}
+
+.side .md p {
+    margin: .5em 0 2em;
+}
+
+.side .md p a {
+    font-size: 1.1em;
+}
+
+.side .md p a:first-child {
+    margin-left: 0;
+}
+
+.sidebox.create {
+    display: none;
+}
+
+.side .morelink a[href*="http://www.reddit.com/r/technologytest/submit"] {
+    background-image: url("http://f.thumbs.redditmedia.com/Jb1U_0JyF2pC2A6q.png");
+    background-repeat: no-repeat;
+}
+
+.side .morelink a[href="http://www.reddit.com/r/technologytest/submit"] {
+    background-position: 8px -188px;
+}
+
+.side .morelink a[href="http://www.reddit.com/r/technologytest/submit?selftext=true"] {
+    background-position: 8px -239px;
+}
+
+.side .morelink a[href="http://www.reddit.com/r/technologytest/submit"]:hover,.side .morelink a[href="http://www.reddit.com/r/technologytest/submit"]:focus {
+    background-position: 8px -49px;
+}
+
+.side .morelink a[href="http://www.reddit.com/r/technologytest/submit?selftext=true"]:hover,.side .morelink a[href="http://www.reddit.com/r/technologytest/submit?selftext=true"]:focus {
+    background-position: 8px -99px;
+}
+
+.titlebox .usertext-body h1 {
+    font-size: 1.1em;
+    line-height: 1em;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px;
+    background: #D3E8FF;
+    margin: 5px 0 0 0;
+}
+
+.titlebox h1 a {
+    color: #555;
+    letter-spacing: 1px;
+    font-weight: normal;
+    font-family: tahoma;
+    text-transform: capitalize;
+}
+
+.titlebox .md {
+    padding: 0 0 10px;
+}
+
+.titlebox .md h2 {
+    padding-top: 10px;
+}
+
+.md p,.md h1 {
+    margin: 7px 0;
+}
+
+.md p:first-child {
+    margin-top: 3px;
+}
+
+.comment .child {
+    margin-top: 15px;
+    border-color: #ddd;
+}
+
+.commentarea .usertext blockquote {
+    color: #666;
+}
+
+.commentarea .md h2,.commentarea .md h3 {
+    margin: 1.2em 0 0.8em;
+}
+
+.titlebox .bottom {
+    display: none;
+}
+
+.titlebox hr+h1 {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 1.6;
+    font-family: Tahoma,Geneva,sans-serif;
+    font-weight: normal;
+    padding: 10px 10px 5px 0;
+    color: #777;
+}
+
+.titlebox h1 {
+    margin-top: 15px;
+}
+
+.thing .title.loggedin {
+    color: #16A;
+}
+
+.thing .title.loggedin:hover,.thing .title.loggedin:focus {
+    color: #159;
+}
+
+.thing .title.loggedin:visited,.thing .title.click,.thing .title:visited,.thing .title.loggedin.click,.thing .title.loggedin.click:visited {
+    color: #777;
+}
+
+.thing .title:visited:hover,.thing .title:visited:focus,.thing .title.loggedin.click:hover,.thing .title.loggedin.click:focus {
+    color: #444!important;
+}
+
+.thing.stickied a.title {
+    font-weight: normal!important;
+}
+
+.menuarea {
+    border-color: #bbb;
+}
+
+.flairselectbtn {
+    border: 1px solid #ccc;
+    padding: 0.1em .8em!important;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px #EEE;
+}
+
+.flairselectbtn:hover,.flairselectbtn:focus {
+    text-decoration: none!important;
+    border-color: #256DB6!important;
+    color: #256DB6!important;
+}
+
+.flairoptionpane {
+    margin-bottom: -0.4em;
+    overflow: visible;
+}
+
+.flairselector {
+    box-shadow: 4px 4px 0 #eee;
+}
+
+.flairselector.drop-choices.active {
+    border: 1px solid #ddd;
+}
+
+.flairselector h2,.flairselector .flairselection,.flairselector .status,.flairselector li a {
+    display: none!important;
+}
+
+.flairselector ul {
+    display: block;
+    width: 100%!important;
+    max-width: inherit;
+    overflow: visible;
+}
+
+.flairselector li {
+    text-align: center!important;
+    position: relative;
+    padding-left: 0;
+    background: #F6F6F6;
+    margin-bottom: 0.2em;
+    font-size: 1.8em;
+}
+
+.flairselector li:hover {
+    background: #F0F0F0;
+}
+
+.flairselector li.selected:after {
+    content: "✓";
+    background: #444;
+    position: absolute;
+    top: 50%;
+    right: -0.6em;
+    width: 24px;
+    height: 24px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #FFF;
+    border-radius: 50%;
+    margin-top: -12px;
+}
+
+.flairselector form {
+    border-top: none;
+}
+
+.flairselector button {
+    width: 100%;
+    display: block;
+}
+
+.link .title {
+    position: relative;
+    overflow: visible;
+}
+
+#reddit-field {
+    display: none;
+}
+
+.roundfield {
+    background: #f5f5f5;
+}
+
+.roundfield textarea,.roundfield input[type=text],.roundfield input[type=url],.roundfield input[type=password],.roundfield input[type=number] {
+    width: 96%;
+}
+
+.tabmenu.formtab a {
+    display: inline-block;
+    color: #555;
+    background-color: #E4F2FB;
+}
+
+.tabmenu.formtab .selected a {
+    color: #fff;
+    font-size: inherit;
+    background-color: #256DB6;
+}
+
+.formtabs-content {
+    border-top: 2px solid #256DB6;
+    padding-top: 38px;
+}
+
+.content.submit .info-notice {
+    border: none;
+    border-radius: 0;
+}
+
+a[href="#s"] {
+    font-size: 0;
+    visibility: hidden;
+    cursor: default;
+    display: inline-block;
+}
+
+a[href="#s"]::after {
+    content: attr(title);
+    background: #cee3f8;
+    color: #cee3f8;
+    font-size: small;
+    visibility: visible;
+}
+
+body.res-nightmode a[href="#s"]::after {
+    content: attr(title);
+    background: #666;
+    color: #666;
+    font-size: small;
+    visibility: visible;
+}
+
+a[href="#s"]:hover::after,a[href="#s"]:active::after {
+    color: #000;
+    background: transparent;
+    text-decoration: none;
+    font-size: small;
+}
+
+body.res-nightmode a[href="#s"]:hover::after,body.res-nightmode a[href="#s"]:active::after {
+    color: #DDD;
+    background: transparent;
+    text-decoration: none;
+    font-size: small;
+}
+
+.side .usertext-body blockquote p {
+    position: absolute;
+    top: 65px;
+    left: 29px;
+    z-index: 2;
+    padding: 1px 10px;
+}
+
+.side .usertext-body blockquote p strong {
+    font-family: Arial;
+    display: inline-block;
+    padding: 5px;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+div.content {
+    margin-top: 40px;
+}
+
+.titlebox form {
+    position: static;
+}
+
+.side h5:nth-of-type(1) {
+    position: absolute;
+    display: block;
+    top: 80px;
+    left: 122px;
+    background-color: #FCFCFC;
+    color: #555555;
+    text-align: left;
+    margin: 15px;
+    border-radius: 8px;
+    width: 50%;
+    padding: 7px 0px 7px 40px;
+    background-image: url("http://f.thumbs.redditmedia.com/-kuorXYA93HEIose.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.side h5:nth-of-type(1) strong {
+}
+
+.side .spacer .sidecontentbox {
+    width: 300px;
+}
+
+.arrow.down:hover:before {
+    position: absolute;
+    display: block;
+    z-index: 1000;
+    width: 220px;
+    padding: 5px;
+    border: 1px solid #333;
+    background-color: #FFF;
+    content: "A downvote deters participants. Use it with care, and if possible, leave an explanation.";
+    text-align: center;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.linkflair-politics .linkflairlabel,.linkflair-business .linkflairlabel,.linkflair-puretech .linkflairlabel {
+    background-color: #CCC!important;
+    color: #666!important;
+    font-size: 11px;
+    line-height: 1em;
+    vertical-align: top;
+    text-align: center;
+    padding: 3px 5px;
+    margin-top: 1px;
+    border-radius: 0;
+    border: 0px;
+    width: 58px;
+}
+
+.linkflair-politics .linkflairlabel,.flairoptionpane .linkflair-politics .linkflairlabel {
+    background-color: #F8EBC0!important;
+    color: #666!important;
+}
+
+.linkflair-business .linkflairlabel,.flairoptionpane .linkflair-business .linkflairlabel {
+    background-color: #C3DBF6!important;
+    color: #444!important;
+    border-color: #CCC!important;
+}
+
+.linkflair-puretech .linkflairlabel,.flairoptionpane .linkflair-puretech .linkflairlabel {
+    background-color: #ADA!important;
+    color: #444!important;
+    border-color: #CCC!important;
+}
+
+html:lang(xx) .link:not(.linkflair-politics),html:lang(yy) .link:not(.linkflair-business),html:lang(zz) .link:not(.linkflair-puretech),html:lang(ss) .search-summary,html:lang(ss) .searchpane,html:lang(ss) .content>.menuarea {
+    display: none;
+}
+
+.side a[href*="#filter"] {
+    display: inline-block;
+    padding: 5px 10px;
+    width: 90px;
+    text-align: center;
+    background: #CCC;
+    color: #333;
+    margin: 0 0 0 1px;
+    text-transform: uppercase;
+    font-size: 11px!important;
+    font-weight: bold;
+    font-family: Arial,helvetica,sans-serif;
+    opacity: 0.5;
+    border-radius: 0;
+    transition: all 200ms linear;
+    -webkit-transition: all 200ms linear;
+    -moz-transition: all 200ms linear;
+    -o-transition: all 200ms linear;
+}
+
+.side a[href*="flair%3A%22politics%22"] {
+    background: #F8EBC0;
+}
+
+.side a[href*="flair%3A%22business%22"] {
+    background: #C3DBF6;
+}
+
+.side a[href*="flair%3A%22pure+tech%22"] {
+    background: #ADA;
+}
+
+.side a[href="http://reddit.com/r/technology/#filter"] {
+    background: #FFADAD;
+}
+
+.side a[href*="#unusedpurple"] {
+    background: #BFAEFF;
+}
+
+.side a[href*="flair%3A%22politics%22"]:hover {
+    background: #F7E6AF;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.side a[href*="flair%3A%22business%22"]:hover {
+    background: #B0D5FF;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.side a[href*="flair%3A%22pure+tech%22"]:hover {
+    background: #9bdf9b;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.side a[href="http://reddit.com/r/technology/#filter"]:hover {
+    background: #FC9E9E;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.side a[href*="#unusedpurplehover"]:hover {
+    background: #B19DFF;
+    text-decoration: none;
+    opacity: 1;
+}
+
+.link:not(.linkflair) a.flairselectbtn {
+    color: red;
+    border-color: red;
+}
+
+.submit-page .formtabs-content .spacer:first-child {
+    margin-top: 300px;
+}
+
+.submit_text.roundfield {
+    position: absolute;
+    top: 185px;
+    max-height: 300px;
+}
+
+.side .usertext h2 {
+    margin: 0 0 5px 0;
+    padding: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    background: #F3F3F3;
+    box-shadow: 1px 1px 0 #DDD inset;
+    color: #333769;
+    cursor: pointer;
+    font-family: Arial,sans-serif;
+    text-transform: uppercase;
+}
+
+.side .usertext h2:hover {
+    box-shadow: 0 0;
+    cursor: pointer;
+    background: #DEE;
+}
+
+.side .usertext h2+ul {
+    margin-top: -20px;
+    padding: 0 0 0;
+    margin: -5px 0 0 0;
+    z-index: 99999;
+    position: relative;
+    max-height: 0;
+    border: 1px solid #DDD;
+    border-width: 0 1px 0px 1px;
+    overflow: hidden;
+    transition: all 0.8s 0.2s ease;
+    -moz-transition: all 0.8s 0.2s ease;
+    -webkit-transition: all 0.8s 0.2s ease;
+    -o-transition: all 0.8s 0.2s ease;
+}
+
+.side .usertext h2+ul li {
+    display: block;
+    margin: 0;
+    padding: 5px 15px;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.side .usertext h2:hover+ul,.side .usertext h2+ul:hover {
+    max-height: 900px;
+    border-width: 0 1px 1px 1px;
+}
+
+.newComments {
+    color: #D11B24!important;
+}
+
+.wiki-page .wiki-page-content,.sheets {
+    margin-right: 350px;
+}
+
+.sheets .col textarea,textarea#wiki_page_content {
+    background: #000;
+    color: #ccc;
+    padding: 10px;
+    border: 1px solid #666;
+    font-size: 1em;
+    line-height: 1.4em;
+}
+
+.tagline,.entry .buttons li a {
+    color: #AAA;
+}
+
+body:lang(np) .arrow {
+    visibility: hidden!important;
+}
+
+body:lang(np) .usertext-edit,body:lang(np) .sidebox.submit,body:lang(np) .commentingAs,body:lang(np) .markdownEditor,body:lang(np) .report-button,body:lang(np) a[onclick*="return reply(this)"],body:lang(np) .helplink {
+    display: none!important;
+}
+
+body:lang(np) #siteTable:before {
+    content: "You have been linked to a read-only version of this subreddit. Please respect the community by not voting.";
+    display: block;
+    max-width: 800px;
+    background-color: #F6E69F;
+    padding: 5px 10px;
+    margin: 5px 305px 5px 0px;
+    border: 1px solid orange;
+    font-size: small;
+}
+
+body:lang(np) .entry.likes:not(.reddit-entry):before,body:lang(np) .entry.dislikes:not(.reddit-entry):before {
+    content: "Please do not vote or comment when you come from external subreddits.";
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+body.wiki-page:lang(np) span.pageactions a.wikiaction-edit:not(.wikiaction-current),body.wiki-page:lang(np) div.wiki-page-content form#editform label[for="reason"],body.wiki-page:lang(np) div.wiki-page-content form#editform input#wiki_revision_reason,body.wiki-page:lang(np) div.wiki-page-content form#editform input[type="submit"] {
+    display: none!important;
+}
+
+.content .RESBigEditorPop {
+    color: #444!important;
+}
+
+.gadget .midcol {
+    width: 25px!important;
+}
+
+#RESShortcutsEditContainer,#RESShortcutsSort,#RESShortcutsRight,#RESShortcutsAdd,#RESShortcutsLeft {
+    background: #377FCE!important;
+    color: #f0f0f0!important;
+}
+
+.titlebox .usertext-body h1:last-of-type {
+    padding: 5px 10px 5px 10px;
+    text-transform: none;
+}
+
+.titlebox .usertext-body h2:last-of-type {
+    padding: 5px 10px 5px 10px;
+    text-transform: none;
+}
+
+.titlebox .usertext-body h2:last-of-type:hover:after {
+    content: ": /u/awkwarddev,  /u/preggit, /u/rotorcowboy & /u/heckytorr";
+}

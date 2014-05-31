@@ -1,0 +1,413 @@
+.submit-page #title-field .title:after {
+    content: " FOR THE LOVE OF EVERYTHING HOLY, PLEASE REMEMBER TO UPDATE THE APPROPRIATE LINK FLAIR TO YOU POST AFTER SUBMITTING!!! THANKS! ALSO AS PER THE NEW RULES, NO RELATIONSHIP POSTS ARE ALLOWED. KINDLY POST THEM TO /r/relationship_advice";
+}
+
+.submit-page #text-field .title:after {
+    content: " Feel free to include links to insightful images, videos, articles, etc, but they must be contained within a self-post.";
+}
+
+.submit-page #text-desc {
+    display: none;
+}
+
+.submit-page #text-field .gray {
+    display: none;
+}
+
+.submit-page .roundfield {
+    background: #eee;
+}
+
+.submit-page #title-field .title,.submit-page #text-field .title,.submit-page #reddit-field .title {
+    display: block;
+    text-transform: capitalize;
+}
+
+.submit-page #title-field .title:after,.submit-page #text-field .title:after {
+    display: block;
+    color: #DC1623;
+    text-transform: none;
+    font-size: 0.7em;
+}
+
+.flair,.linkflair .linkflairlabel {
+    color: #000;
+    padding: 1px 3px;
+}
+
+.linkflair .linkflairlabel {
+    text-align: center;
+    width: 7.5em;
+    overflow: hidden;
+}
+
+.flair-help,.linkflair-help .linkflairlabel,.linkflair.linkflair-help>.linkflairlabel,.side a[href^="//#help"] {
+    background: #c9f!important;
+    border-color: #95e!important;
+}
+
+.flair-image,.linkflair-image .linkflairlabel,.linkflair.linkflair-image>.linkflairlabel,.side a[href^="//#image"] {
+    background: #B4D8FF!important;
+    border-color: #8be!important;
+}
+
+.flair-advice,.linkflair-advice .linkflairlabel,.linkflair.linkflair-advice>.linkflairlabel,.side a[href^="//#advice"] {
+    background: #6df!important;
+    border-color: #58B!important;
+}
+
+.flair-challenge,.linkflair-challenge .linkflairlabel,.linkflair.linkflair-challenge>.linkflairlabel,.side a[href^="//#challenge"] {
+    background: #ada!important;
+    border-color: #696!important;
+}
+
+.flair-revelation,.linkflair-revelation .linkflairlabel,.linkflair.linkflair-revelation>.linkflairlabel,.side a[href^="//#revelation"] {
+    background: #cf9!important;
+    border-color: #ad6!important;
+}
+
+.flair-article,.linkflair-article .linkflairlabel,.linkflair.linkflair-article>.linkflairlabel,.side a[href^="//#article"] {
+    background: #fc9!important;
+    border-color: #e94!important;
+}
+
+.flair-video,.linkflair-video .linkflairlabel,.linkflair.linkflair-video>.linkflairlabel,.side a[href^="//#video"] {
+    background: #f99!important;
+    border-color: #e44!important;
+}
+
+body {
+    background-image: url(http://a.thumbs.redditmedia.com/N9pnanKFEuoq9sQr.png);
+}
+
+.thing {
+    background-color: white;
+    padding: 7px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    margin-left: -2px;
+    border: 1px solid #c2beb2;
+    box-shadow: 3px 3px 3px #DDD;
+}
+
+.comment {
+    margin-left: 0;
+}
+
+.content .submit {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    position: relative;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.titlebox form {
+    position: static;
+}
+
+.titlebox .usertext-body .md ol {
+    font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    color: #555555;
+    width: auto;
+    background: #F2F2F2;
+    border-left: 16px solid #A7C7C6;
+    position: absolute;
+    top: 90px;
+    left: 15px;
+    z-index: 50;
+    margin: 0;
+    padding: 2px 6px 5px 5px;
+    list-style: none;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.titlebox .usertext-body .md ol li {
+    margin: 3px;
+}
+
+.side {
+    border-left: 1px solid gray;
+    padding-left: 10px;
+}
+
+body {
+    font-family: "Segoe UI",Helvetica,Arial,"Liberation Sans","Arial Unicode MS",Sans-Serif;
+}
+
+a:hover {
+    color: #000;
+}
+
+.thing .title,.thing .title.loggedin {
+    color: #3c3c3c;
+}
+
+.thing .title:visited,.thing .title.click,.thing .title.loggedin:visited,.thing .title.loggedin.click,.thing .title.loggedin.click:visited {
+    color: #bbb;
+}
+
+#header {
+    background: #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.option.active.add:before {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    padding: 5px 0;
+    border-top: 1px solid #A7C7C6;
+    content: "Subscribe to #howtonotgiveafuck, The Problem-Free Philosophy!";
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #A7C7C6;
+    font-size: 16px;
+}
+
+.titlebox .md ul {
+    margin: 0;
+}
+
+.titlebox ul li {
+    width: 250px;
+    background-color: #f2f2f2;
+    border: none;
+    color: black;
+    display: none;
+    padding: 7px 7px 9px 13px;
+    margin: 0 0 -1px 0;
+    text-align: left;
+    border-top: 1px solid #CCCCCC;
+    border-left: 6px solid #DDDDDD;
+}
+
+.titlebox ul li:hover {
+    background-color: #DDDDDD;
+}
+
+.titlebox ul li:nth-child(1) {
+    display: block;
+    font-family: "Segoe UI",Helvetica,Arial,"Liberation Sans","Arial Unicode MS",Sans-Serif;
+    font-weight: 300;
+    background-color: #333333;
+    color: #f2f2f2;
+    display: inline-block;
+    font-size: 1.4em;
+    border-left: 6px solid #808080;
+    border-top: none;
+    font-size: 15px;
+    padding: 8px 12px 9px 8px;
+}
+
+.titlebox ul li:nth-child(1):hover {
+    border-left: 6px solid #A7C7C6;
+    background-color: #F2F2F2;
+    color: #555555;
+}
+
+.titlebox ul:hover>li {
+    display: block;
+}
+
+.titlebox ul li a:hover {
+    color: black;
+}
+
+.side .titlebox hr {
+    border: none;
+    margin-bottom: 10px;
+}
+
+.submit .morelink a {
+    font-size: 0;
+}
+
+.submit .morelink a:after {
+    content: "Submit a post";
+    font-size: 20px;
+    color: white;
+}
+
+.submit .morelink {
+    font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+    text-align: center;
+    border: 0px solid gray;
+    background-color: #302f30;
+    background-image: none;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border: 0px solid gray;
+}
+
+.submit .morelink:hover {
+    border-color: gray;
+    background-image: none;
+}
+
+.submit .morelink:hover a {
+    color: white;
+    background-color: #A7C7C6;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.morelink .nub {
+    display: none;
+}
+
+.side {
+    padding-top: 25px;
+}
+
+.side .submit {
+    position: absolute;
+    top: 75px;
+    width: 300px;
+}
+
+.side .submit .spacer {
+    display: none;
+}
+
+.side .titlebox .redditname a {
+    background: url(http://d.thumbs.redditmedia.com/tRXwf1hnGk7RiaNK.png);
+    display: block;
+    width: 300px;
+    height: 250px;
+    float: none;
+    font-size: 0;
+}
+
+#search input[type="text"] {
+    text-transform: capitalize!important;
+    font-weight: bold!important;
+    text-align: center;
+}
+
+div.titlebox span.word {
+    display: none;
+}
+
+div.titlebox .subscribers span.number:after {
+    content: " Enlightened beings";
+}
+
+div.titlebox .users-online span.number:after {
+    content: " Stoics here now";
+}
+
+#header-bottom-left {
+    background-color: #A7C7C6;
+}
+
+#sr-header-area {
+    background-color: black;
+    border-bottom: none;
+}
+
+.sr-bar a,.sr-bar .separator {
+    color: white!important;
+}
+
+#sr-more-link {
+    display: none;
+}
+
+.dropdown .title {
+    background-color: orange;
+    color: white!important;
+}
+
+.drop-choices .choice {
+    color: black!important;
+}
+
+.dropdown .title {
+    color: white;
+}
+
+.pagename a {
+    color: white;
+    font-size: 220%;
+    margin-left: 10px;
+    text-shadow: black 1px 0px 5px;
+}
+
+.titlebox .bottom {
+    display: none;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+.linkflair .flat-list.buttons a.flairselectbtn:before {
+    content: "Flair Has Been Set, Thanks!";
+    font-size: 10px;
+    color: #888;
+    background: #fff;
+}
+
+.flat-list.buttons .flairselectbtn {
+    font-size: 0px;
+}
+
+.flat-list.buttons a.flairselectbtn:before {
+    content: "Please Click This to Categorize Your Post";
+    font-size: 12px;
+    color: black;
+    padding: 0px 4px 0px 4px;
+    background-color: yellow;
+}
+
+.side a[href="http://feeds.feedburner.com/howtonotgiveafuck"] {
+    display: inline-block;
+    height: 50px;
+    width: 105px;
+    background: url(http://e.thumbs.redditmedia.com/h7YX5LQKfhQQkuvd.png) no-repeat 0 0;
+}
+
+.side a[href="http://www.youtube.com/howtonotgiveafuck"] {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url(http://f.thumbs.redditmedia.com/Ko_gHjwpfcSWhzyS.png) no-repeat 0 0;
+}
+
+.side a[href="http://howtonotgiveafuck.com/contact"] {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url(http://d.thumbs.redditmedia.com/rKNSkeL4mBruaiYi.png) no-repeat 0 0;
+}
+
+.side a[href="http://www.twitter.com/htngaf"] {
+    display: inline-block;
+    height: 50px;
+    width: 105px;
+    background: url(http://b.thumbs.redditmedia.com/vIl3UJqMw6kIb7zC.png) no-repeat 0 0;
+}
+
+.side a[href="http://www.facebook.com/htngaf"] {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url(http://b.thumbs.redditmedia.com/99FRaHJQDexui6us.png) no-repeat 0 0;
+}
+
+.side a[href="http://plus.google.com/101056935413994231000"] {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background: url(http://f.thumbs.redditmedia.com/ZlQMsbNKBKgfkGKA.png) no-repeat 0 0;
+}

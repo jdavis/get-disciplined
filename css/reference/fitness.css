@@ -1,0 +1,2572 @@
+a:hover {
+    text-decoration: none!important;
+}
+
+.md blockquote {
+    padding: 1px 5px;
+    margin: 0;
+    background: #DEF;
+    border-color: #3498DB;
+}
+
+#header {
+    height: 130px;
+    background: #1E1E20;
+    border: none;
+}
+
+#header:after {
+    content: "";
+    height: 1px;
+    display: block;
+    position: absolute;
+    right: 10px;
+    bottom: -30px;
+    left: 10px;
+    border-bottom: 1px solid #DDD;
+}
+
+#sr-header-area,#sr-more-link {
+    height: 35px;
+    background: transparent;
+    border: none;
+    line-height: 35px;
+}
+
+.res #sr-header-area #srLeftContainer {
+    max-height: none;
+    padding: 0;
+    margin: 0;
+}
+
+.res #sr-header-area #RESShortcutsViewport {
+    max-height: none;
+}
+
+#sr-more-link {
+    padding-right: 10px;
+}
+
+#sr-header-area .srdrop.dropdown {
+    width: 35px;
+    padding: 0;
+}
+
+#sr-header-area .srdrop.dropdown .selected,.res #sr-header-area #srDropdownContainer a {
+    width: 35px;
+    height: 35px;
+    padding: 0;
+    margin: 0;
+    display: block;
+    background: url("http://d.thumbs.redditmedia.com/NuTamdcCiRuQ56R-.png") no-repeat 11px 12px;
+    line-height: 35px;
+    text-indent: -999em;
+    opacity: 0.8;
+}
+
+#sr-header-area .srdrop.dropdown .selected:hover,.res #sr-header-area #srDropdownContainer a:hover {
+    opacity: 1;
+}
+
+#sr-header-area .drop-choices.srdrop {
+    padding: 5px;
+    margin: 1px 0 0 0;
+    background: #222;
+    border: none;
+}
+
+#sr-header-area .drop-choices a.choice {
+    color: #AEAEAE;
+}
+
+#sr-header-area .drop-choices a.choice:hover {
+    background-color: #333;
+    color: #EEE;
+}
+
+#sr-header-area .drop-choices .choice.bottom-option {
+    border-color: #AEAEAE;
+}
+
+#sr-header-area .srdrop.dropdown .selected,#sr-header-area a:not(.gold) {
+    font-family: "Lato",helvetica,sans-serif;
+    letter-spacing: 1px;
+    color: #AEAEAE;
+}
+
+#sr-header-area .sr-list {
+    padding-left: 5px;
+}
+
+#sr-header-area .sr-list .flat-list.sr-bar:not(:first-of-type) a,.res #sr-header-area #RESShortcuts a.subbarlink,#sr-more-link {
+    color: #666;
+}
+
+#sr-header-area a:not(.gold):hover,#sr-header-area .sr-list .flat-list.sr-bar:not(:first-of-type) a:hover,.res #sr-header-area #RESShortcuts a.subbarlink:hover {
+    color: #EEE;
+}
+
+#sr-header-area .sr-list .flat-list.sr-bar li.selected,#sr-header-area .sr-list .flat-list.sr-bar li.selected a {
+    font-weight: normal;
+    color: #AEAEAE;
+    display: none;
+}
+
+.res #sr-header-area #RESShortcuts a.subbarlink.RESShortcutsCurrentSub {
+    font-weight: normal;
+    color: #AEAEAE!important;
+}
+
+#sr-header-area .separator {
+    visibility: hidden;
+}
+
+.res #sr-header-area #srLeftContainer #RESStaticShortcuts>.separator:first-of-type {
+    margin: 0;
+}
+
+.res #sr-header-area #srLeftContainer .srSep {
+    visibility: hidden;
+}
+
+.res #sr-header-area #RESShortcutsEditContainer {
+    display: none;
+}
+
+#header-bottom-left {
+    height: 60px;
+}
+
+#header-img-a,#header-img.default-header {
+    position: absolute;
+    bottom: 37px;
+    left: 19px;
+}
+
+#header-img-a #header-img {
+    margin: 0;
+}
+
+.pagename {
+    width: 136px;
+    height: 35px;
+    display: block;
+    position: absolute;
+    bottom: 40px;
+    left: 64px;
+    background: url("http://b.thumbs.redditmedia.com/Aw1WoSLZ3p7fcXMm.png") no-repeat;
+    font-size: 0;
+    text-align: center;
+}
+
+.pagename a {
+    width: 136px;
+    height: 35px;
+    display: block;
+}
+
+#header-bottom-left .tabmenu {
+    margin: 0;
+    position: absolute;
+    bottom: 7px;
+    left: 10px;
+}
+
+#header-bottom-left .tabmenu li {
+    margin: 0;
+}
+
+#header-bottom-left .tabmenu li a {
+    padding: 8px 9px;
+    background: #1E1E20;
+    border: none;
+    border-bottom: 4px solid #DDD;
+    font-family: "Lato",helvetica,sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #AEAEAE;
+}
+
+#header-bottom-left .tabmenu li.selected a {
+    border-color: #BBB;
+    color: #EEE;
+}
+
+#header-bottom-left .tabmenu li a:hover {
+    border-color: #CCC;
+    color: #EEE;
+}
+
+#header-bottom-left .tabmenu li a[href$="/wiki/"] {
+    background: #3498DB;
+    border-color: #2980B9;
+    font-weight: bold;
+    color: #FFF;
+}
+
+#header-bottom-left .tabmenu li a[href$="/wiki/"]:hover {
+    border-color: #0E68A3;
+}
+
+#header-bottom-left .tabmenu li a[href$="/wiki/"]:before {
+    content: "Read the ";
+}
+
+.menuarea {
+    padding: 8px 10px;
+    margin: 0;
+    background: #F5F5F5;
+    border-bottom: 1px solid #EEE;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.menuarea .dropdown.lightdrop .selected {
+    padding-right: 20px;
+    background: url("http://a.thumbs.redditmedia.com/hINGDMjP3odZRW36.png") center right no-repeat;
+    text-decoration: none;
+    color: #222;
+}
+
+.menuarea .dropdown.lightdrop .selected:hover {
+    cursor: pointer;
+    color: #2980B9;
+}
+
+.menuarea .drop-choices.lightdrop {
+    min-width: 77px;
+    padding: 2px;
+    margin: 5px 0 0 -7px;
+    border-color: #DDD;
+}
+
+.menuarea .drop-choices.lightdrop>form {
+}
+
+.menuarea .drop-choices.lightdrop a {
+    padding: 2px 4px;
+    font-weight: bold;
+    color: #2980B9;
+}
+
+.menuarea .drop-choices.lightdrop a:hover {
+    background: transparent;
+    color: #3498DB;
+}
+
+#header-bottom-right {
+    height: 35px;
+    padding: 0 10px 0 20px;
+    top: 0;
+    right: 0;
+    bottom: auto;
+    background: #1E1E20;
+    font-family: "Lato",helvetica,sans-serif;
+    font-size: 9px;
+    letter-spacing: 1px;
+    line-height: 35px;
+    text-transform: uppercase;
+}
+
+.res #header-bottom-right {
+    padding: 0 10px 0 0;
+    top: 0;
+    bottom: auto;
+    z-index: 9;
+}
+
+#header-bottom-right a {
+    color: #AEAEAE;
+}
+
+#header-bottom-right a:hover {
+    color: #EEE;
+}
+
+#header-bottom-right .user {
+    color: #1E1E20;
+}
+
+#header-bottom-right .user .userkarma {
+    border: none;
+    color: #999;
+}
+
+.res #header-bottom-right .user {
+    margin-left: 0;
+}
+
+#header-bottom-right .separator {
+    visibility: hidden;
+}
+
+.res #header-bottom-right #userbarToggle {
+    width: auto;
+    padding: 0 5px 0 10px;
+    margin: 0;
+    left: -23px;
+    background: #1E1E20;
+    border-radius: 0;
+    border: none;
+    line-height: 33px;
+    color: #AEAEAE;
+}
+
+.res #header-bottom-right #RESAccountSwitcherIcon {
+    margin-top: -4px;
+}
+
+.res #header-bottom-right a#mail.havemail+a#mailCount {
+    margin-left: 3px;
+}
+
+.titlebox .md h6:first-of-type {
+    position: absolute;
+    top: 130px;
+    left: 10px;
+    height: 30px;
+    line-height: 30px;
+    display: none;
+}
+
+.titlebox .md h6:first-of-type a {
+    color: #111;
+}
+
+.titlebox .md h5 a[href="http://www.reddit.com/r/Fitness/comments/1zjj7i/nutrition_tuesdays/"] {
+    width: 300px;
+    height: 150px;
+    display: block;
+    position: absolute;
+    top: 160px;
+    right: 10px;
+    z-index: 999;
+    display: none;
+}
+
+.side {
+    width: 300px;
+    padding: 10px;
+    margin: 30px 10px 0 0;
+    background: #EEE;
+    color: #222;
+}
+
+.side .spacer {
+    margin: 0;
+}
+
+.side #search input[type="text"] {
+    width: 288px;
+    height: 25px;
+    padding: 0 6px;
+    margin: 0 0 10px;
+    background: #FFF;
+    border: none;
+    border-radius: 0;
+    font-size: 11px;
+    color: #222;
+}
+
+.side #search input[type="text"]:active,.side #search input[type="text"]:focus {
+    outline: none;
+    color: #222;
+}
+
+.side #searchexpando {
+    padding: 10px 10px 1px;
+    margin: -5px 0 10px;
+    border: none;
+    border-radius: 0;
+    font-size: 11px;
+    color: #222;
+}
+
+.side #searchexpando a {
+    color: #2980B9;
+}
+
+.side #searchexpando a:hover {
+    color: #3498DB;
+}
+
+.submit.submit-text .morelink {
+    width: 300px;
+    height: 30px;
+    margin: 0 0 10px;
+    background: #1E1E20;
+    border: none;
+    line-height: 32px;
+}
+
+.submit.submit-text .morelink a {
+    font-family: "Kelson sans",helvetica,sans-serif;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #F5F5F5;
+}
+
+.submit.submit-text .morelink:hover a {
+    color: #FFF;
+}
+
+.submit.submit-text .morelink:hover:before {
+    content: "";
+    width: 250px;
+    height: 70px;
+    display: block;
+    position: absolute;
+    top: -20px;
+    right: 300px;
+    background: url("http://a.thumbs.redditmedia.com/hJ1-QpTUomZCCEWN.png") no-repeat;
+    z-index: 999;
+}
+
+.submit.submit-link,.nub {
+    display: none;
+}
+
+.titlebox h1.redditname {
+    display: none;
+}
+
+.titlebox h1.hover.redditname+div {
+    font-family: sans-serif;
+}
+
+.titlebox .fancy-toggle-button {
+    width: 300px;
+    height: 25px;
+    margin: 0 0 10px;
+}
+
+.res .titlebox .fancy-toggle-button {
+    margin: 10px 0 5px;
+}
+
+.titlebox .fancy-toggle-button .add,.titlebox .fancy-toggle-button .remove {
+    height: 25px;
+    padding: 0 7px;
+    background: #E7E7E7;
+    border: none;
+    border-radius: 0;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #999;
+}
+
+.titlebox .fancy-toggle-button .add {
+    background: #E7E7E7;
+    font-weight: bold;
+    color: #27AE60;
+}
+
+.titlebox .fancy-toggle-button .add:active,.titlebox .fancy-toggle-button .remove:active {
+    outline: none;
+}
+
+.titlebox .fancy-toggle-button.toggle .option.active {
+    display: inline-block;
+    width: 286px;
+}
+
+.res .titlebox .subButtons .RESshortcutside,.res .titlebox .subButtons .RESDashboardToggle {
+    width: 133px;
+    height: 20px;
+    padding: 0 7px;
+    margin: 0 0 5px;
+    display: inline-block;
+    background: #EAEAEA;
+    border: none;
+    border-radius: 0;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    line-height: 20px;
+    color: #999;
+}
+
+.res .titlebox .subButtons .RESshortcutside {
+    width: 134px;
+    margin-right: 5px;
+}
+
+.subscribers {
+    height: 25px;
+    padding: 0 7px;
+    margin-top: -35px;
+    display: block;
+    position: absolute;
+    right: 20px;
+    background: #E7E7E7;
+    font-family: sans-serif;
+    font-size: 11px;
+    line-height: 25px;
+    color: #555;
+}
+
+.res .subscribers {
+    margin-top: -55px;
+}
+
+.subscribers .word {
+    display: none;
+}
+
+.subscribers .number:after {
+    content: " members";
+}
+
+.users-online {
+    display: none;
+}
+
+.titlebox .leavemoderator,.titlebox .toggle.leavecontributor-button {
+    display: none;
+}
+
+.titlebox .md {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.titlebox .md p,.titlebox .md ul {
+    margin: 0 0 10px;
+}
+
+.titlebox .md a {
+    color: #2980B9;
+}
+
+.titlebox .md a:hover {
+    color: #3498DB;
+}
+
+.titlebox .md hr {
+    border: none;
+    border-top: 1px solid #DDD;
+}
+
+.titlebox .md>p:first-of-type a {
+    height: 27px;
+    margin-bottom: 5px;
+    display: block;
+    background: #3498DB;
+    border-bottom: 3px solid #2980B9;
+    font-family: "Kelson sans",helvetica,sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFF;
+}
+
+.titlebox .md>p:first-of-type a:hover {
+    border-color: #0E68A3;
+}
+
+.titlebox .md h4+p {
+    padding: 10px 10px 0;
+    margin-bottom: 0;
+    background: #F5F5F5;
+}
+
+.titlebox .md h4+p+p,.titlebox .md h4+p+p+p,.titlebox .md h4+p+ul {
+    padding: 10px;
+    margin-top: 0;
+    background: #F5F5F5;
+}
+
+.titlebox .md h4+p+ol {
+    padding: 10px 27px;
+    margin: 0 0 10px;
+    background: #F5F5F5;
+}
+
+.titlebox .md h4+p+ul {
+    list-style: none;
+}
+
+.titlebox .md h4+p+ul li:not(:last-of-type) {
+    margin: 0 0 8px;
+}
+
+.titlebox .md h4+p+p+p {
+    padding-top: 0;
+    margin-top: -10px;
+}
+
+.titlebox .md h5+ul li a {
+    padding: 6px 10px;
+    display: block;
+    background: #E7E7E7;
+    font-size: 11px;
+    font-weight: bold;
+    color: #222;
+}
+
+.titlebox .md h5+ul li a:hover {
+    background: #EAEAEA;
+    color: #2980B9;
+}
+
+.titlebox .md h5+ul li:not(:last-of-type) a {
+    border-bottom: 1px solid #DDD;
+}
+
+.titlebox .md h5+ul li a[href="http://www.reddit.com/r/Fitness/wiki/faq"]+ul {
+    border-top: 1px solid #DDD;
+    display: none;
+}
+
+.titlebox .md h5+ul li a[href="http://www.reddit.com/r/Fitness/wiki/faq"]:hover+ul,.titlebox .md h5+ul li a[href="http://www.reddit.com/r/Fitness/wiki/faq"]+ul:hover {
+    display: block;
+}
+
+.titlebox .md h5+ul li a[href="http://www.reddit.com/r/Fitness/wiki/faq"]+ul li a {
+    background: #F5F5F5;
+    border-color: #EEE;
+    color: #555;
+}
+
+.titlebox .md h5+ul li a[href="http://www.reddit.com/r/Fitness/wiki/faq"]+ul li a:hover {
+    background: #F8F8F8;
+    color: #2980B9;
+}
+
+.titlebox .md h6+ul li {
+    display: inline-block;
+}
+
+.titlebox .md h6+ul li a {
+    width: 133px;
+    padding: 6px 5px;
+    display: block;
+    border-left: 5px solid;
+    font-size: 11px;
+    text-shadow: 0 0 2px #999;
+    color: #FFF;
+}
+
+.titlebox .md h6+ul li a:hover {
+    color: #FFF;
+}
+
+.titlebox .bottom {
+    margin: 5px 0 15px;
+    border-color: #DDD;
+    font-family: sans-serif;
+}
+
+.titlebox .bottom a {
+    color: #2980B9;
+}
+
+.titlebox .bottom a:hover {
+    color: #3498DB;
+}
+
+.sidebox.create {
+    display: none;
+}
+
+.sidecontentbox {
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.sidecontentbox .title {
+    padding: 6px 10px;
+    background: #E7E7E7;
+    border-bottom: 1px solid #DDD;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: none;
+    color: #222;
+}
+
+.sidecontentbox .content {
+    padding: 8px;
+    background: #F5F5F5;
+    border: none;
+}
+
+.sidecontentbox .content a {
+    background-color: transparent;
+    font-size: 12px;
+    color: #2980B9;
+}
+
+.sidecontentbox .content a:hover {
+    color: #3498DB;
+}
+
+.sidecontentbox .collapse-button {
+    background: #EAEAEA;
+    border: none;
+    line-height: 7px;
+    color: #AAA;
+}
+
+.sidecontentbox a.helplink {
+    margin: 6px 8px 0 0;
+    color: #3498DB;
+}
+
+.sidecontentbox a.helplink+.title+ul.content>li {
+    padding-bottom: 1px;
+}
+
+.sidecontentbox ul.content li a.author {
+    margin-bottom: 1px;
+}
+
+.sidecontentbox .content a.reddit-link-title {
+    font-size: 12px;
+    color: #222;
+}
+
+.sidecontentbox .content a.reddit-comment-link {
+    font-size: 11px;
+    color: #3498DB;
+}
+
+.sidecontentbox .content .gadget .midcol {
+    width: 25px;
+    margin: 0 4px 0 -3px;
+}
+
+.sidecontentbox .content .gadget .right a {
+    border-bottom: 1px dotted #999;
+    font-size: 11px;
+    color: #222;
+}
+
+.sidecontentbox .linkflairlabel {
+    display: none;
+}
+
+.sidecontentbox#moderation_tools .title:before {
+    content: "Moderation Tools";
+}
+
+.sidecontentbox a.helplink+.title:before {
+    content: "Moderators"!important;
+}
+
+.side>.spacer:nth-last-child(2) .sidecontentbox .title:before {
+    content: "Recently Viewed Links";
+}
+
+.sidecontentbox#wikiactions .title:before {
+    content: "Wiki Tools";
+}
+
+.sidecontentbox#moderation_tools .title h1,.sidecontentbox a.helplink+.title h1,.side>.spacer:nth-last-child(2) .sidecontentbox .title h1,.sidecontentbox#wikiactions .title h1 {
+    font-size: 0;
+    color: #222;
+}
+
+.account-activity-box a {
+    color: #2980B9;
+}
+
+.account-activity-box a:hover {
+    color: #3498DB;
+}
+
+.usertext-edit textarea,.submit-page .roundfield textarea {
+    padding: 5px;
+    border: 1px solid #CCC;
+    color: #222;
+}
+
+.usertext-edit textarea:hover,.submit-page .roundfield textarea:hover {
+    border-color: #AAA;
+}
+
+.usertext-edit textarea:active,.usertext-edit textarea:focus,.submit-page .roundfield textarea:active,.submit-page .roundfield textarea:focus {
+    border-color: #3498DB;
+    outline: none;
+}
+
+.single-page .link .usertext-edit textarea {
+}
+
+.submit-page .roundfield textarea,.commentarea>.usertext textarea,.commentarea .comment .usertext-edit textarea {
+    width: 488px!important;
+}
+
+.usertext .help-toggle a,.usertext a.reddiquette,.submit-page .roundfield .usertext .help-toggle a,.submit-page .roundfield .usertext a.reddiquette {
+    color: #2980B9;
+}
+
+.usertext .help-toggle a:hover,.usertext a.reddiquette:hover,.submit-page .roundfield .usertext .help-toggle a:hover,.submit-page .roundfield .usertext a.reddiquette:hover {
+    color: #3498DB;
+}
+
+.usertext .help-toggle a:active,.submit-page .roundfield .usertext .help-toggle a:active {
+    outline: none;
+}
+
+.usertext .markhelp {
+    padding: 10px;
+    margin: 10px 0px 5px;
+    background: #FFF;
+    border: none;
+    font-size: 12px;
+    color: #222;
+}
+
+.usertext .markhelp a {
+    color: #2980B9;
+}
+
+.usertext .markhelp a:hover {
+    color: #3498DB;
+}
+
+.usertext .markhelp table {
+    margin: 10px 0 5px;
+}
+
+.usertext .markhelp table tr:first-of-type {
+    background: #EEE!important;
+}
+
+.usertext .markhelp table td {
+    padding: 3px;
+    border: 1px solid #EEE;
+    font-size: 12px;
+}
+
+.commentarea .usertext .markhelp {
+    background: #F8F8F8;
+}
+
+.commentarea .usertext .markhelp table tr {
+    background: #FFF;
+}
+
+.arrow.up,.arrow.upmod,.arrow.down,.arrow.downmod {
+    background: url("http://d.thumbs.redditmedia.com/NuTamdcCiRuQ56R-.png") no-repeat -9999px -9999px;
+}
+
+.arrow.up,.sidecontentbox .content .gadget .arrow.up {
+    background-position: 0 -24px;
+    opacity: 0.6;
+}
+
+.arrow.upmod,.sidecontentbox .content .gadget .arrow.upmod {
+    background-position: -15px -24px;
+}
+
+.arrow.down,.sidecontentbox .content .gadget .arrow.down {
+    background-position: -30px -24px;
+    opacity: 0.6;
+}
+
+.arrow.downmod,.sidecontentbox .content .gadget .arrow.downmod {
+    background-position: -45px -24px;
+}
+
+body>.content {
+    margin: 30px 330px 0 10px;
+}
+
+.link {
+    padding: 8px;
+    margin: 0;
+    background: #F8F8F8;
+    border-bottom: 1px solid #EEE;
+}
+
+.link.last-clicked {
+    background: #FCFCFC;
+    border: none;
+    border-bottom: 1px solid #EEE;
+}
+
+.link .rank {
+    display: none;
+}
+
+.link .midcol {
+    margin-left: 8px;
+    margin-right: 13px;
+}
+
+.link .score {
+    margin: 2px 0 3px;
+    color: #BBB;
+}
+
+.link .thumbnail {
+    display: none;
+}
+
+.link .title a.title {
+    font-family: sans-serif;
+    color: #222;
+}
+
+.listing-page .link .title a.title:visited {
+    color: #888;
+}
+
+.link.stickied .title a.title,.listing-page .link.stickied .title a.title {
+    color: #27AE60;
+}
+
+.link .domain {
+    margin-left: -5px;
+    color: #F8F8F8;
+}
+
+.link.last-clicked .domain {
+    color: #FCFCFC;
+}
+
+.link .domain a {
+    vertical-align: text-bottom;
+    color: #DDD;
+}
+
+.domain a:hover,.link a.title:hover+.domain a {
+    color: #888;
+}
+
+.link .entry .expando-button {
+    width: 20px;
+    height: 20px;
+    margin: 4px 8px 0 0;
+    background: url("http://d.thumbs.redditmedia.com/NuTamdcCiRuQ56R-.png") no-repeat -9999px -9999px!important;
+}
+
+.link .expando-button:hover {
+    cursor: pointer;
+}
+
+.link .entry .expando-button.selftext.collapsed {
+    background-position: 0 -38px!important;
+}
+
+.link .entry .expando-button.selftext.collapsed:hover {
+    background-position: -20px -38px!important;
+}
+
+.link .entry .expando-button.selftext.expanded {
+    background-position: 0 -58px!important;
+}
+
+.link .entry .expando-button.selftext.expanded:hover {
+    background-position: -20px -58px!important;
+}
+
+.link .entry .expando-button.video.collapsed,.link .entry .expando-button.video.expanded {
+    background-position: 0 -78px!important;
+}
+
+.link .entry .expando-button.video.collapsed:hover,.link .entry .expando-button.video.expanded:hover {
+    background-position: -20px -78px!important;
+}
+
+.link .entry .expando-button.image.collapsed,.link .entry .expando-button.image.expanded {
+    background-position: 0 -98px!important;
+}
+
+.link .entry .expando-button.image.collapsed:hover,.link .entry .expando-button.image.expanded:hover {
+    background-position: -20px -98px!important;
+}
+
+.link .entry .expando .error {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.link .tagline a {
+    color: #2980B9;
+}
+
+.link .tagline a:hover {
+    color: #3498DB;
+}
+
+.link.stickied .tagline a,.link .tagline a.moderator {
+    color: #27AE60;
+}
+
+.link.stickied .tagline a:hover,.link .tagline a.moderator:hover {
+    color: #2ECC71;
+}
+
+.link .tagline .userattrs {
+    color: #F8F8F8;
+}
+
+.link.last-clicked .tagline .userattrs {
+    color: #FCFCFC;
+}
+
+.link .tagline .userattrs>a {
+    padding: 0 3px 0 2px;
+}
+
+.link .tagline .userattrs>a:first-of-type {
+    margin-left: -5px;
+}
+
+.link .tagline .userattrs .moderator,.link .tagline .userattrs .moderator:hover {
+    background: #3BC492;
+    color: #FFF;
+}
+
+.link .stickied-tagline {
+    color: #27AE60;
+}
+
+.link .usertext .md {
+    border-color: #CCC;
+    background: #FFF;
+    border-radius: 0;
+    color: #222;
+}
+
+.link .usertext .md a {
+    color: #2980B9;
+}
+
+.link .usertext .md a:hover {
+    color: #3498DB;
+}
+
+.link .entry .flat-list {
+    padding: 0;
+}
+
+.link .entry .buttons li:not(.first) a {
+    font-weight: normal;
+    color: #888;
+}
+
+.link .entry .buttons li.first a,.link .entry .buttons li a:hover {
+    color: #3498DB;
+}
+
+.link.stickied .entry .buttons li.first a,.link.stickied .entry .buttons li a:hover {
+    color: #27AE60;
+}
+
+.link .entry .buttons li a.gold:hover {
+    color: #9A7D2E;
+}
+
+.link .entry .buttons li .option.error a {
+    color: #222;
+}
+
+.link .entry .buttons li .option.error a:hover {
+    color: #E74C3C;
+}
+
+.link .entry .buttons li a:active,.link .entry .buttons li a:focus {
+    outline: none;
+}
+
+.linkinfo {
+    padding: 0;
+    margin-bottom: 10px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 0;
+    font-family: sans-serif;
+}
+
+.linkinfo .date {
+    padding: 10px 0 5px;
+    margin: 0;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    color: #222;
+}
+
+.linkinfo .date span {
+    font-size: 0;
+    color: #F5F5F5;
+}
+
+.linkinfo .date span:after {
+    content: "This post was submitted on ";
+    display: inline;
+    font-size: 12px;
+    font-weight: normal;
+    color: #222;
+}
+
+.linkinfo .score {
+    width: 100px;
+    padding: 10px 0;
+    margin: 0;
+    display: inline-block;
+    border: none;
+    font-size: 11px;
+    text-align: center;
+    color: #222;
+}
+
+.linkinfo .score .number {
+    display: block;
+    font-size: 18px;
+    font-weight: normal;
+    color: #222;
+}
+
+.linkinfo .score .word {
+    display: none;
+}
+
+.linkinfo .upvotes,.linkinfo .downvotes {
+    width: 100px;
+    padding: 9px 0;
+    display: inline-block;
+    font-size: 12px;
+    text-align: center;
+}
+
+.linkinfo .downvotes {
+    margin-left: -4px;
+}
+
+.linkinfo .upvotes .number,.linkinfo .downvotes .number {
+    display: block;
+    position: relative;
+    top: 1px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.linkinfo .upvotes .word,.linkinfo .downvotes .word {
+    font-size: 11px;
+}
+
+.linkinfo .shortlink {
+    margin-top: 0;
+    font-size: 0;
+    text-align: center;
+    visibility: hidden;
+}
+
+.linkinfo .shortlink input {
+    width: 296px;
+    height: 30px;
+    margin: 10px 0 -5px 0;
+    background: #FBFBFB;
+    border: none;
+    font-size: 11px;
+    text-align: center;
+    color: #555;
+    visibility: visible;
+}
+
+.nextprev {
+    padding: 8px 10px;
+    margin: 0;
+    display: block;
+    background: #F5F5F5;
+    font-family: sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #888;
+}
+
+.nextprev a {
+    padding: 1px 0;
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    font-weight: bold;
+    color: #222;
+}
+
+.nextprev>a:first-of-type {
+    margin-left: 2px;
+}
+
+.nextprev a:hover {
+    background: transparent;
+    border: none;
+    color: #2980B9;
+}
+
+.nextprev .separator {
+    margin: 0;
+    visibility: hidden;
+}
+
+.commentarea {
+    padding: 15px 10px 0 0;
+}
+
+.commentarea .panestack-title {
+    padding: 0 10px 7px;
+    margin: 0;
+    border: none;
+}
+
+.commentarea .panestack-title .title {
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.commentarea>.menuarea {
+    margin-right: 0;
+    background: transparent;
+    font-size: 11px;
+    color: #888;
+}
+
+.commentarea>.menuarea .toggle .option.main a,.commentarea>.menuarea .toggle .option.main span {
+    font-weight: normal;
+}
+
+.commentarea>.menuarea .toggle .option.error a {
+    font-weight: bold;
+    color: #222;
+}
+
+.commentarea>.menuarea .toggle .option.error a:hover {
+    color: #E74C3C;
+}
+
+.commentarea>.menuarea .toggle.set_subreddit_sticky-button .option.main a,.commentarea>.menuarea .toggle.set_subreddit_sticky-button .option.error,.commentarea>.menuarea .toggle.set_subreddit_sticky-button .option.error a:hover {
+    color: #27AE60;
+}
+
+body:not(.res) .commentarea .comment .usertext-edit {
+    width: 500px!important;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.comment .usertext-edit:before {
+    content: "";
+    width: 1px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -1px;
+    background: #FFF;
+}
+
+.commentarea .usertext-edit>div:nth-of-type(1):after {
+    content: "Be civil. No hate speech, racism, misogyny, sexism, etc - even if you think they're jokes.";
+    width: 500px;
+    padding: 5px 0;
+    display: block;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #E74C3C;
+}
+
+.comment .tagline a.expand {
+    color: #888;
+}
+
+.comment .tagline a.expand:hover {
+    background-color: #F5F5F5;
+    color: #666;
+}
+
+.comment a.expand:hover {
+    background-color: #3498DB;
+    color: #FFF;
+}
+
+.comment .tagline a.author {
+    color: #444;
+}
+
+.comment .tagline a.submitter,.comment .tagline a.submitter.author {
+    color: #2980B9;
+}
+
+.comment .tagline a.friend,.comment .tagline a.submitter.friend {
+    color: #FF4500;
+}
+
+.comment .tagline a.moderator,.comment .tagline a.submitter.moderator {
+    color: #27AE60;
+}
+
+.comment .tagline .userattrs {
+    color: #FFF;
+}
+
+.comment .tagline .userattrs>a {
+    padding: 0 3px;
+}
+
+.comment .tagline .userattrs>a:first-of-type {
+    margin-left: -5px;
+}
+
+.comment .tagline .userattrs .submitter {
+    background: #3498DB;
+    color: #FFF;
+}
+
+.comment .tagline .userattrs .moderator {
+    background: #3BC492;
+    color: #FFF;
+}
+
+.comment .md {
+    padding-left: 1px;
+    margin: 2px 0 0;
+    color: #222;
+}
+
+.comment .md a {
+    color: #2980B9;
+}
+
+.comment .md a:hover {
+    color: #3498DB;
+}
+
+.comment .flat-list.buttons li a {
+    padding: 0;
+    font-weight: normal;
+    color: #888;
+}
+
+.comment .flat-list.buttons li a:hover {
+    color: #2980B9;
+}
+
+.comment .flat-list.buttons li a.give-gold:hover {
+    color: #9A7D2E;
+}
+
+.comment .flat-list.buttons li .option.error a {
+    color: #222;
+}
+
+.comment .flat-list.buttons li .option.error a:hover {
+    color: #E74C3C;
+}
+
+.comment .flat-list.buttons li a:active,.comment .flat-list.buttons li a:focus {
+    outline: none;
+}
+
+.comment .child {
+    border-left: 1px dotted #DDD;
+}
+
+.comment .collapsed,.comment .collapsed .submitter {
+    color: #888;
+}
+
+.commentarea .morecomments a,.commentarea .deepthread a {
+    color: #2980B9;
+}
+
+.commentarea .deepthread a {
+    background: #DEF;
+    padding: 0 2px;
+}
+
+.commentarea .morecomments a:hover,.commentarea .deepthread a:hover {
+    color: #3498DB;
+}
+
+.commentarea .morecomments span {
+    color: #888;
+}
+
+.commentarea .morecomments .status {
+    color: #E74C3C;
+}
+
+.commentarea #noresults.error {
+    margin: 0 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #888;
+}
+
+.commentarea>.menuarea+form+.infobar,.commentarea>.menuarea+.infobar {
+    padding: 8px 10px;
+    margin: 5px 0 15px 10px;
+    border: none;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.commentarea>.menuarea+form+.infobar a,.commentarea>.menuarea+.infobar a {
+    color: #2980B9;
+}
+
+.commentarea>.menuarea+form+.infobar a:hover,.commentarea>.menuarea+.infobar a:hover {
+    color: #3498DB;
+}
+
+.usertext.grayed .usertext-body {
+    padding: 4px;
+}
+
+.usertext.grayed .usertext-body .md {
+    margin-top: 3px;
+    font-size: 12px;
+    color: #AAA;
+}
+
+.usertext.grayed .usertext-body .md p {
+    margin: 0;
+}
+
+.commentarea .gold-accent.comment-visits-box {
+    width: 480px;
+    padding: 7px 10px;
+    margin: 0 10px 15px;
+    border: none;
+    border-radius: 0;
+    font-family: sans-serif;
+}
+
+.commentarea .gold-accent.comment-visits-box .title {
+    font-weight: normal;
+}
+
+.comment.new-comment .usertext-body {
+    padding-left: 5px;
+    margin: 0;
+    border: none;
+}
+
+.panestack-title a.title-button {
+    font-family: sans-serif;
+}
+
+.panestack-title a.title-button:not(.gold) {
+    color: #2980B9;
+}
+
+.panestack-title a.title-button:not(.gold):hover {
+    color: #3498DB;
+}
+
+.panestack-title a.title-button.gold {
+    border: none;
+    border-radius: 0;
+}
+
+.panestack-title a.title-button.gold:hover {
+    background: #FDE856;
+}
+
+.linkflairlabel {
+    padding: 1px 4px;
+    vertical-align: 2px;
+    background: #FFF;
+    border: none;
+    border-bottom: 1px solid #EEE;
+    border-radius: 0;
+    color: #666;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Amon&sort=new&restrict_sr=on"],.link.linkflair-mon .linkflairlabel,.flairselector.drop-choices .linkflair-mon .linkflairlabel {
+    background: #E74C3C;
+    border-color: #C0392B;
+    color: #FFF;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Amon&sort=new&restrict_sr=on"]:hover {
+    background: #C0392B;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Atue&sort=new&restrict_sr=on"],.link.linkflair-tue .linkflairlabel,.flairselector.drop-choices .linkflair-tue .linkflairlabel {
+    background: #3498DB;
+    border-color: #2980B9;
+    color: #FFF;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Atue&sort=new&restrict_sr=on"]:hover {
+    background: #2980B9;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Awed&sort=new&restrict_sr=on"],.link.linkflair-wed .linkflairlabel,.flairselector.drop-choices .linkflair-wed .linkflairlabel {
+    background: #E67E22;
+    border-color: #D35400;
+    color: #FFF;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Awed&sort=new&restrict_sr=on"]:hover {
+    background: #D35400;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Athu&sort=new&restrict_sr=on"],.link.linkflair-thu .linkflairlabel,.flairselector.drop-choices .linkflair-thu .linkflairlabel {
+    background: #1ABC9C;
+    border-color: #16A085;
+    color: #FFF;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Athu&sort=new&restrict_sr=on"]:hover {
+    background: #16A085;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Afri&sort=new&restrict_sr=on"],.link.linkflair-fri .linkflairlabel,.flairselector.drop-choices .linkflair-fri .linkflairlabel {
+    background: #F1C40F;
+    border-color: #F39C12;
+    color: #FFF;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Afri&sort=new&restrict_sr=on"]:hover {
+    background: #F39C12;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Asun&sort=new&restrict_sr=on"],.link.linkflair-sun .linkflairlabel,.flairselector.drop-choices .linkflair-sun .linkflairlabel {
+    background: #2ECC71;
+    border-color: #27AE60;
+    color: #FFF;
+}
+
+.titlebox .md h6+ul li a[href="/r/Fitness/search?q=flair%3Asun&sort=new&restrict_sr=on"]:hover {
+    background: #27AE60;
+}
+
+.flairselector.drop-choices .linkflair-all .linkflairlabel {
+    background: #F5F5F5;
+    border-color: #EEE;
+    color: #666;
+}
+
+.link .flairselector.drop-choices {
+    padding: 10px!important;
+    margin-top: 15px;
+    border: 1px solid #DDD;
+    box-shadow: none;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.link .flairselector.drop-choices h2 {
+    display: none;
+}
+
+.link .flairselector.drop-choices .flairoptionpane {
+    max-height: none;
+}
+
+.link .flairselector.drop-choices ul li {
+    padding: 0;
+    margin-bottom: 1px;
+    border: none;
+    text-align: center!important;
+}
+
+.link .flairselector.drop-choices ul li:hover,.link .flairselector.drop-choices li.selected {
+    background: #F5F5F5;
+    color: #333;
+}
+
+.link .flairselector.drop-choices ul li .linkflairlabel {
+    margin: 0 auto!important;
+    display: block;
+    overflow: hidden;
+}
+
+.link .flairselector.drop-choices ul li a.title,.link .flairselector.drop-choices .flairselection a.title {
+    display: none;
+}
+
+.link .flairselector.drop-choices form {
+    border-color: #EEE;
+}
+
+.link .flairselector.drop-choices form .flairselection {
+    padding: 5px 0;
+}
+
+.link .flairselector.drop-choices form .flairremove {
+    color: #FFF;
+}
+
+.link .flairselector.drop-choices form .flairremove a {
+    color: #2980B9;
+}
+
+.link .flairselector.drop-choices form .flairremove a:hover {
+    color: #3498DB;
+}
+
+.link .flairselector.drop-choices form .status {
+    font-size: 11px;
+    color: #E74C3C;
+}
+
+.flair {
+    padding: 1px 3px;
+    background: #FFF;
+    border: none;
+    border-radius: 0;
+    color: #666;
+}
+
+.comment .flair {
+    background: #F5F5F5;
+}
+
+.titlebox .bottom .flair {
+    display: none;
+}
+
+.titlebox .toggle.flairtoggle {
+    padding: 10px;
+    margin: 0;
+    display: none;
+}
+
+.titlebox .tagline {
+    height: 25px;
+    margin: 5px 0 10px 0;
+    position: relative;
+    background: #F5F5F5;
+    line-height: 25px;
+    color: #F5F5F5;
+}
+
+.titlebox .tagline a.flairselectbtn {
+    width: 93px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    background: url("http://c.thumbs.redditmedia.com/D6trMCu0mmRUxjT2.png") 78px 10px no-repeat #FAFAFA;
+    font-size: 0;
+    line-height: 25px;
+    text-indent: 7px;
+    color: #FAFAFA;
+}
+
+.titlebox .tagline a.flairselectbtn:after {
+    content: "Edit your flair";
+    font-size: 10px;
+    color: #999;
+}
+
+.titlebox .tagline a.author {
+    display: inline-block;
+    text-indent: -9999px;
+    color: #3498DB;
+}
+
+.titlebox .tagline a.author:after {
+    content: "No flair selected";
+    position: absolute;
+    left: 100px;
+    text-indent: 0;
+    color: #999;
+}
+
+.titlebox .tagline a.author:hover {
+    cursor: default;
+}
+
+.titlebox .tagline>.flair {
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: #F5F5F5;
+    left: 100px;
+    color: #666;
+}
+
+.titlebox .tagline .flairselector.drop-choices {
+    width: 280px!important;
+    padding: 10px!important;
+    top: 24px!important;
+    right: 0;
+    left: auto!important;
+    border: none;
+    box-shadow: none;
+    font-family: sans-serif;
+    font-size: 11px;
+}
+
+.titlebox .tagline .flairselector.drop-choices h2 {
+    display: none;
+}
+
+.titlebox .tagline .flairselector.drop-choices .flairoptionpane {
+    max-height: none;
+    text-align: left;
+}
+
+.titlebox .tagline .flairselector.drop-choices ul {
+    width: 92px!important;
+    margin-right: 1px;
+}
+
+.titlebox .tagline .flairselector.drop-choices ul li {
+    width: 92px!important;
+    padding-left: 0;
+    margin-bottom: 1px;
+    border: none;
+}
+
+.titlebox .tagline .flairselector.drop-choices ul li .flair {
+    max-width: 90px!important;
+    overflow: hidden;
+}
+
+.titlebox .tagline .flairselector.drop-choices ul li:hover,.titlebox .tagline .flairselector.drop-choices ul li:hover .flair,.titlebox .tagline .flairselector.drop-choices li.selected,.titlebox .tagline .flairselector.drop-choices li.selected .flair {
+    background: #F5F5F5;
+    color: #333;
+}
+
+.titlebox .tagline .flairselector.drop-choices ul li a.author,.titlebox .tagline .flairselector.drop-choices .flairselection a.author {
+    display: none;
+}
+
+.titlebox .tagline .flairselector.drop-choices form {
+    border-color: #EEE;
+}
+
+.titlebox .tagline .flairselector.drop-choices form .flairselection {
+    padding: 5px 0;
+}
+
+.titlebox .tagline .flairselector.drop-choices form .flairremove {
+    color: #FFF;
+}
+
+.titlebox .tagline .flairselector.drop-choices form .flairremove a {
+    color: #2980B9;
+}
+
+.titlebox .tagline .flairselector.drop-choices form .flairremove a:hover {
+    color: #3498DB;
+}
+
+.titlebox .tagline .flairselector.drop-choices form .status {
+    font-size: 11px;
+    color: #E74C3C;
+}
+
+.footer {
+    padding: 5px 5px 0;
+    margin-bottom: 15px;
+    background: #F5F5F5;
+    border: none;
+    border-radius: 0;
+}
+
+.footer .col {
+    border-color: #EEE;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.footer .col .flat-vert.title {
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.footer .col a:not(.buygold) {
+    color: #2980B9;
+}
+
+.footer .col a:not(.buygold):hover {
+    color: #3498DB;
+}
+
+.footer-parent .bottommenu a {
+    text-decoration: none;
+    color: #2980B9;
+}
+
+.footer-parent .bottommenu a:hover {
+    color: #3498DB;
+}
+
+.debuginfo .icon {
+    color: #222;
+}
+
+.debuginfo .content {
+    color: #888;
+}
+
+.wiki-page>.content {
+    padding-top: 10px;
+    background: #F5F5F5;
+}
+
+.wiki-page .wikititle {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #AEAEAE;
+}
+
+.wiki-page .wikititle strong {
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.wiki-page .pageactions {
+    position: relative;
+    top: 1px;
+    border: none;
+    border-radius: 0;
+}
+
+.wiki-page .pageactions a.wikiaction {
+    padding: 4px 10px 1px;
+    margin: 0;
+    background: #DDD;
+    border-bottom: 3px solid #CCC;
+    border-radius: 0;
+    font-family: sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.wiki-page .pageactions a.wikiaction:hover {
+    background: #DDD;
+    border-color: #BBB;
+}
+
+.wiki-page .pageactions a.wikiaction-current {
+    background: #3498DB;
+    border-color: #2980B9;
+    color: #FFF;
+}
+
+.wiki-page .pageactions a.wikiaction-current:hover {
+    background: #3498DB;
+    border-color: #0E68A3;
+}
+
+.wiki-page>.content>.infobar {
+    padding: 3px 10px;
+    margin: -10px 0 15px 0;
+    border: none;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.wiki-page>.content>.infobar .md {
+    font-size: 12px;
+}
+
+.wiki-page .wiki-page-content .md.wiki>.toc>ul {
+    padding: 10px 11px;
+    margin-top: 5px;
+    background: #F5F5F5;
+    border-color: #DDD;
+}
+
+.wiki-page .wiki-page-content .md.wiki>.toc>ul li a {
+    color: #2980B9;
+}
+
+.wiki-page .wiki-page-content .md.wiki>.toc>ul li a:hover {
+    color: #3498DB;
+}
+
+.wiki-page .wiki-page-content {
+    padding: 15px 15px 10px;
+    margin: 10px 0 0;
+    background: #FAFAFA;
+    border-top: 1px solid #EEE;
+    color: #222;
+}
+
+.wiki-page .wiki-page-content .md.wiki {
+    font-size: 12px;
+}
+
+.wiki-page .wiki-page-content .md.wiki h1,.wiki-page .wiki-page-content .md.wiki h2,.wiki-page .wiki-page-content .md.wiki h3,.wiki-page .wiki-page-content .md.wiki h4 {
+    padding-top: 10px;
+    margin-top: 15px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.wiki-page .wiki-page-content .md.wiki h4 {
+    font-size: 18px;
+}
+
+.wiki-page .wiki-page-content .md.wiki a {
+    color: #2980B9;
+}
+
+.wiki-page .wiki-page-content .md.wiki a:hover {
+    color: #3498DB;
+}
+
+.wiki-page .wiki-page-content .md.wiki .expando-button {
+    float: none;
+    margin: 2px 5px;
+    display: inline-block;
+    vertical-align: text-bottom;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki>h4:first-of-type {
+    padding-top: 5px;
+    margin-top: 0;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki>h4 {
+    margin-bottom: 5px;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki>h4 a {
+    color: #222;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki>h4 a:after {
+    content: "";
+    width: 14px;
+    height: 11px;
+    padding-left: 5px;
+    display: inline-block;
+    background: url("http://c.thumbs.redditmedia.com/3P-HMvE2o-wCmSEn.png") no-repeat top right;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki>h4 a:hover {
+    color: #2980B9;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki>h4 a:hover:after {
+    background-position: bottom right;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki>p {
+    padding: 5px 10px;
+    margin: 0;
+    border-left: 2px solid #EEE;
+}
+
+.wiki-page.wiki-page-index .wiki-page-content .md.wiki+textarea {
+    margin-top: 20px;
+}
+
+.wiki-page .wiki-page-content em a {
+    color: #2980B9;
+}
+
+.wiki-page .wiki-page-content em a:hover {
+    color: #3498DB;
+}
+
+.wiki-page .wiki-page-content>hr {
+    margin-top: 20px;
+    border: none;
+    border-top: 1px solid #DDD;
+}
+
+.submit-page>.content>form+h1 {
+    display: none;
+}
+
+.submit-page>.content>.content {
+    margin: 0;
+}
+
+.submit-page>.content .formtabs-content {
+    width: 520px;
+    padding: 190px 0 50px;
+    margin-top: 0;
+    background: #F8F8F8;
+    border-top: none;
+}
+
+.submit-page .formtabs-content .spacer {
+    margin: 0;
+}
+
+.submit-page .formtabs-content .roundfield.submit_text {
+    width: 480px;
+    padding: 6px 10px 10px;
+    margin: 10px;
+    position: absolute;
+    top: 160px;
+    background: #F6E69F;
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.submit-page .formtabs-content .roundfield.submit_text>h1 {
+    display: none;
+}
+
+.submit-page .formtabs-content .roundfield.submit_text .md {
+    padding-bottom: 6px;
+    border-bottom: 1px solid #FFA500;
+    font-size: 12px;
+}
+
+.submit-page .formtabs-content .roundfield.submit_text .md a {
+    color: #2980B9;
+}
+
+.submit-page .formtabs-content .roundfield.submit_text .md a:hover {
+    color: #3498DB;
+}
+
+.submit-page .formtabs-content .roundfield.submit_text .md ul {
+    list-style: square;
+}
+
+.submit-page .formtabs-content .roundfield.submit_text .md ul li {
+    margin-bottom: 2px;
+}
+
+.submit-page .formtabs-content .infobar {
+    padding: 10px;
+    margin: 0 10px 5px;
+    border: none;
+    font-size: 12px;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.submit-page .formtabs-content .roundfield {
+    background: #F8F8F8;
+    border-radius: 0;
+}
+
+.submit-page .formtabs-content .roundfield#title-field {
+    padding-top: 10px;
+}
+
+.submit-page .formtabs-content .roundfield .title {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #222;
+}
+
+.submit-page .formtabs-content .roundfield .gray {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #999;
+}
+
+.submit-page #suggest-title button {
+    padding: 0;
+    background: transparent;
+    border: none;
+    font-family: sans-serif;
+    color: #2980B9;
+}
+
+.submit-page #suggest-title button:hover {
+    color: #3498DB;
+}
+
+.submit-page .formtabs-content .roundfield#reddit-field {
+    display: none;
+}
+
+.roundfield label[for="sendreplies"] {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.submit-page .content.submit .info-notice {
+    width: 480px;
+    padding: 9px 10px;
+    margin: -42px 10px 20px;
+    border: none;
+    border-radius: 0;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #222;
+}
+
+.submit-page .content.submit .info-notice:before {
+    display: none;
+}
+
+.submit-page .content.submit .info-notice a {
+    font-weight: normal;
+    text-decoration: none;
+    color: #2980B9;
+}
+
+.submit-page .content.submit .info-notice a:hover {
+    color: #3498DB;
+}
+
+.submit-page .btn[name="submit"] {
+    width: 260px;
+    height: 30px;
+    padding: 0;
+    background: #1E1E20;
+    border: none;
+    font-family: "Kelson sans",helvetica,sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #F5F5F5;
+}
+
+.submit-page .btn[name="submit"]:hover {
+    color: #FFF;
+}
+
+.submit-page .error {
+    font-family: sans-serif;
+    font-size: 12px;
+}
+
+.submit-page .btn+.status {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #888;
+}
+
+.search-page .search-summary {
+    margin: 10px 10px 0 0;
+}
+
+.search-page .search-summary .result-count {
+    margin-bottom: 3px;
+}
+
+.search-page .search-summary a.pretty-button {
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-bottom: none;
+    border-radius: 0;
+    color: #2980B9;
+}
+
+.search-page .search-summary a.pretty-button:hover {
+    color: #3498DB;
+}
+
+.search-page .search-summary .debuginfo,.search-page .search-summary .debuginfo .icon {
+    padding: 0;
+}
+
+.search-page .search-summary .debuginfo .content {
+    margin: 0 0 0 5px;
+}
+
+.search-page .searchpane.raisedbox {
+    padding: 15px 10px 15px 96px;
+    margin: 0;
+    background-color: #F5F5F5;
+    border: none;
+}
+
+.search-page .searchpane.raisedbox>h4 {
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+    color: #222!important;
+    font-size: 12px;
+}
+
+.search-page .searchpane.raisedbox #search {
+    display: inline-block;
+    position: relative;
+}
+
+.search-page .searchpane.raisedbox #search input[type="text"] {
+    width: 200px;
+    height: 28px;
+    padding: 0 6px;
+    border: none;
+    font-size: 11px;
+}
+
+.search-page .searchpane.raisedbox #search input[type="text"]:active,.search-page .searchpane.raisedbox #search input[type="text"]:focus {
+    background: #FFF;
+    outline: none;
+}
+
+.search-page .searchpane.raisedbox #previoussearch #moresearchinfo {
+    margin: 5px 0 10px;
+    color: #222;
+    border: none;
+}
+
+.search-page .searchpane.raisedbox #moresearchinfo a,.search-page .searchpane.raisedbox #moresearchinfo+p a {
+    color: #2980B9;
+}
+
+.search-page .searchpane.raisedbox #moresearchinfo a:hover,.search-page .searchpane.raisedbox #moresearchinfo+p a:hover {
+    color: #3498DB;
+}
+
+.search-page .searchpane.raisedbox #moresearchinfo>p {
+    margin: 0 0 10px;
+}
+
+.search-page .searchpane.raisedbox #moresearchinfo+p+input {
+    width: 200px;
+    height: 28px;
+    padding: 0;
+    margin-left: 220px;
+    position: absolute;
+    top: 0;
+    background: #DDD;
+    border: none;
+    border-bottom: 3px solid #CCC;
+    font-family: "Kelson sans",helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #555;
+}
+
+.search-page .searchpane.raisedbox #moresearchinfo+p+input:hover {
+    border-color: #BBB;
+}
+
+.search-page .searchfacets {
+    padding: 10px 10px 20px;
+    margin: 1px 0 5px;
+    background: #FFF;
+    border: none;
+    box-shadow: none;
+}
+
+.searchfacets h4.title {
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #222;
+}
+
+.searchfacets .list {
+    margin: 0 5px;
+}
+
+.searchfacets .list li {
+    margin-right: 15px;
+    font-size: 12px;
+}
+
+.searchfacets .list h4.title,.searchfacets .list li .title {
+    margin-left: 0;
+}
+
+.searchfacets .list li a {
+    color: #2980B9;
+}
+
+.searchfacets .list li a:hover {
+    color: #3498DB;
+}
+
+.searchfacets .list li .facet.count {
+    font-size: 10px;
+    color: #AAA;
+}
+
+.searchfacets .list li .facet:hover {
+    text-decoration: none;
+}
+
+.search-page>.content>.menuarea {
+    margin-top: 10px;
+}
+
+.search-page #noresults.error {
+    padding: 8px 10px;
+    margin: 0;
+    background: #F8F8F8;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #888;
+}
+
+.related-page .commentarea,.other-discussions-page .commentarea {
+    padding: 0;
+}
+
+.related-page .commentarea .panestack-title,.other-discussions-page .commentarea .panestack-title {
+    padding: 10px;
+    border-bottom: 1px solid #EEE;
+}
+
+.listing-page .sitetable>.comment {
+    padding: 5px 10px;
+    margin: 0;
+    background: #FCFCFC;
+    border-bottom: 1px solid #EEE;
+}
+
+.listing-page .sitetable>.comment .parent {
+    padding-bottom: 2px;
+}
+
+.listing-page .sitetable>.comment .parent a.title {
+    font-family: sans-serif;
+    color: #222;
+}
+
+.listing-page .sitetable>.comment .parent a.title:visited {
+    color: #888;
+}
+
+.listing-page .sitetable>.comment .flair {
+    display: none;
+}
+
+.listing-page>.content>.infobar {
+    padding: 8px 10px;
+    margin: 0;
+    border: none;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.listing-page>.content>.infobar {
+    font-size: 12px;
+}
+
+.listing-page>.content>.infobar .md p {
+    margin: 0;
+}
+
+.listing-page>.content>.infobar a {
+    color: #2980B9;
+}
+
+.listing-page>.content>.infobar a:hover {
+    color: #3498DB;
+}
+
+body>.content>form+.spacer {
+    margin: 0;
+}
+
+.organic-listing {
+    padding-bottom: 5px;
+    margin: 0;
+    background: #FFF!important;
+    border: none;
+    border-bottom: 1px solid #EEE;
+}
+
+.organic-listing .link,.organic-listing .link.compressed,.organic-listing .link.promotedlink {
+    min-height: 48px;
+}
+
+.link.promotedlink {
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #DEF;
+}
+
+.link.promotedlink .thumbnail {
+    display: none;
+}
+
+.link.promotedlink .sponsored-tagline {
+    font-weight: normal;
+    color: #2980B9;
+}
+
+.organic-listing .help {
+    bottom: 6px;
+    color: #2980B9;
+}
+
+body:not(.loggedin) #header-bottom-right .user {
+    color: #AEAEAE;
+}
+
+body:not(.loggedin) #header-bottom-right a.login-required {
+    color: #EEE;
+}
+
+.login-form.login-form-side {
+    padding: 8px 8px 0;
+    margin-bottom: 10px;
+    background: #F5F5F5;
+    border: none;
+}
+
+.login-form.login-form-side input[type="text"],.login-form.login-form-side input[type="password"] {
+    width: 136px;
+    margin: 0;
+    border: none;
+}
+
+.login-form.login-form-side input[type="password"] {
+    margin-left: 8px;
+}
+
+.login-form.login-form-side #remember-me {
+    margin: 4px 0;
+}
+
+.login-form.login-form-side #remember-me a.recover-password {
+    color: #2980B9;
+}
+
+.login-form.login-form-side #remember-me a.recover-password:hover {
+    color: #3498DB;
+}
+
+.login-form.login-form-side #remember-me a.recover-password.attention {
+    padding: 0;
+    border: none;
+    border-bottom: 1px dotted #2980B9;
+    border-radius: 0;
+}
+
+.login-form.login-form-side .submit {
+    margin: 8px 0 4px;
+}
+
+.login-form.login-form-side .status.error {
+    margin: 7px 0 0;
+    font-size: 11px;
+}
+
+.error {
+    color: #E74C3C;
+}
+
+.listing-page .sitetable>#noresults {
+    padding: 8px 10px;
+    margin: 0;
+    background: #F8F8F8;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: #888;
+}
+
+.link .pretty-form.sharelink {
+    margin-top: 8px;
+}
+
+.side .sponsorshipbox #ad_sponsorship {
+    margin-bottom: 8px;
+}
+
+#headdit-box {
+    width: auto;
+    height: auto;
+    display: none;
+}
+
+.submit-page #header-bottom-left:before,.search-page #header-bottom-left:before,.create-reddit.fancy-settings:before,.flair-settings.fancy-settings:before,.stylesheet-customize-container:before {
+    padding: 8px 9px;
+    display: block;
+    position: absolute;
+    top: 102px;
+    left: 10px;
+    background: #1E1E20;
+    border-bottom: 4px solid #BBB;
+    font-family: "Lato",sans-serif;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #EEE;
+    z-index: 1;
+}
+
+.submit-page #header-bottom-left:before {
+    content: "Submit";
+}
+
+.search-page #header-bottom-left:before {
+    content: "Search results";
+}
+
+.create-reddit.fancy-settings:before {
+    content: "Subreddit settings";
+    z-index: 999;
+}
+
+.flair-settings.fancy-settings:before {
+    content: "Flair settings";
+    z-index: 999;
+}
+
+.stylesheet-customize-container:before {
+    content: "Stylesheet";
+    z-index: 999;
+}
+
+.md.wiki div.toc+ul,.md.wiki div.toc+ul li ul {
+    margin: 0;
+    list-style: none;
+}
+
+.md.wiki div.toc+ul li a {
+    padding: 6px 10px;
+    display: block;
+    width: 250px;
+    background: #E7E7E7;
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #222;
+}
+
+.md.wiki div.toc+ul li a:hover {
+    background: #EAEAEA;
+    color: #2980B9;
+}
+
+.wiki-page .wiki-page-content .md.wiki div.toc+ul>li>a,.wiki-page .wiki-page-content .md.wiki div.toc+ul>li>a:hover {
+    font-size: 15px;
+    color: #333;
+}
+
+.md.wiki div.toc+ul li a[href="http://www.reddit.com/r/Fitness/wiki/index"]+ul {
+    display: none;
+    margin: 0;
+}
+
+.md.wiki div.toc+ul li a[href="http://www.reddit.com/r/Fitness/wiki/index"]:hover+ul,.md.wiki div.toc+ul li a[href="http://www.reddit.com/r/Fitness/wiki/index"]+ul:hover {
+    display: block;
+}
+
+.md.wiki div.toc+ul li a[href="http://www.reddit.com/r/Fitness/wiki/index"]+ul li a {
+    background: #F5F5F5;
+    border-color: #EEE;
+    color: #2980B9;
+}
+
+.md.wiki div.toc+ul li a[href="http://www.reddit.com/r/Fitness/wiki/index"]+ul li a:hover {
+    background: #F8F8F8;
+    color: #2980B9;
+}

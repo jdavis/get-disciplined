@@ -1,0 +1,2362 @@
+.side .md ol [href=#header] {
+    display: none;
+}
+
+.linkflair-FTF .linkflairlabel {
+    background-color: #87CEEB;
+    border: 1px solid #1E90FF;
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    height: 14px;
+}
+
+.flair-leader {
+    background-color: #DAA520;
+    border: 1px solid #B8860B;
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    height: 14px;
+}
+
+.flair-top10 {
+    background-color: #FFF;
+    border: 1px solid #B8860B;
+    color: #000;
+    font-size: 11px;
+    font-weight: 400;
+    height: 13px;
+}
+
+.flair-leader:hover::after {
+    background-color: #DAA520;
+    border: 1px solid #B8860B;
+    color: #000;
+    content: " Currently the 'Top Viewchanger' of the month";
+    font-size: 11px;
+    font-weight: 400;
+    height: 13px;
+    margin-left: 2px;
+    margin-right: -3px;
+}
+
+.flair-top10:hover::after {
+    background-color: #FFF;
+    border: 1px solid #B8860B;
+    color: #000;
+    content: " Currently a 'Top Ten Viewchanger' of the month";
+    font-size: 11px;
+    font-weight: 400;
+    height: 13px !important;
+    margin-left: 2px;
+    margin-right: -3px;
+}
+
+a[href=http://goo.gl/RkgGQI] {
+    width: 160px;
+    height: 27px;
+    background-image: url(http://c.thumbs.redditmedia.com/SZz20yjYzi2MrOut.png);
+    display: inline-block;
+    cursor: default;
+}
+
+.side a[href=http://goo.gl/DIknI6] {
+    display: block;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #39c;
+    background: #39c none repeat-x scroll center left;
+    font-size: 150%;
+    font-weight: 400;
+    color: #FFF;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    top: 168px;
+    right: 10px;
+    width: 298px;
+}
+
+.side a[href=http://goo.gl/DIknI6]:hover {
+    background: #56a6f7;
+}
+
+.side a[href=http://goo.gl/DIknI6]:hover:after {
+    content: url("http://f.thumbs.redditmedia.com/5njBFaDY5X4tAhQA.png");
+    position: absolute;
+    top: -74px;
+    right: 299px;
+}
+
+#search {
+    margin-bottom: 82px !important;
+}
+
+.side>.spacer:first-child {
+    margin-top: 7px;
+}
+
+.comments-page .titlebox {
+    margin-top: 15px;
+}
+
+.submit-page #search input[type=text] {
+    top: 214px;
+    position: absolute;
+    z-index: 200;
+    left: 203px;
+    height: 22px;
+    padding: 2px;
+    background-color: #FFF !important;
+}
+
+.submit-page #title-field {
+    padding-bottom: 15px;
+    padding-top: 7px;
+}
+
+.submit-page #title-field:before {
+    content: "Searched your view? ➨";
+}
+
+.submit-page #title-field .roundfield-content {
+    margin-top: 10px;
+}
+
+.tabmenu li a {
+    -moz-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border: 1px solid;
+    padding-top: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.tabmenu [href$=/wiki/] {
+    -moz-border-top-left-radius: 3px;
+    border-top-left-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    border-top-right-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px;
+    padding-right: 3px !important;
+    padding-top: 2px !important;
+    padding-bottom: 0;
+}
+
+.tabmenu [href$=/top/] {
+    margin-left: -5px;
+}
+
+.tabmenu [href$=/wiki/]:after {
+    font-size: 12px;
+    font-weight: 700;
+    content: " of cmv";
+    display: inline-block;
+    padding: 1px 5px 0;
+}
+
+.search-page .side .md [href*=goo.gl/6qmyPt],.submit-page .side .md [href*=goo.gl/6qmyPt] {
+    top: 97px;
+}
+
+.search-page .side .md [href*=goo.gl/DIknI6],.submit-page .side .md [href*=goo.gl/DIknI6] {
+    top: 133px;
+}
+
+.sidecontentbox .helplink ~ .content {
+    position: relative;
+    z-index: 0;
+}
+
+.sidecontentbox .author:hover:after {
+    content: "Click the button above to message all of the moderators together. Please try to avoid messaging one individually.";
+    position: absolute;
+    top: 10px;
+    left: 115px;
+    width: 176px;
+    background: #f2f2f2;
+    border: 1px solid;
+    padding: 3px;
+}
+
+.stickied {
+    background-color: #def !important;
+    border: 1px solid #51AEFF !important;
+}
+
+.stickied .title {
+    color: #000 !important;
+}
+
+.stickied-tagline {
+    color: green !important;
+}
+
+.stickied-tagline:after {
+    content: " (this spot is reserved for mod posts and our CMV of the day)";
+    font-size: 10px;
+}
+
+.submit-page .submit {
+    margin: 0;
+    padding: 0;
+}
+
+.submit-page .formtabs-content {
+    border: 0;
+    padding: 0;
+}
+
+.submit-page .formtabs-content .spacer:first-child:before {
+    content: "Please see the submission rules in the sidebar before posting.";
+    font-family: Segoe,"Segoe UI",Optima,Candara,Calibri,Arial,sans-serif;
+    font-size: large;
+}
+
+.submit-page #text-desc {
+    background: none;
+    border: 0;
+    font-size: 0;
+    padding: 3px 0 0;
+}
+
+.submit-page .title {
+    text-transform: capitalize;
+}
+
+.submit-page .roundfield,.submit-page .roundfield.info-notice {
+    background: none;
+    border: 0;
+    padding: 0;
+    width: auto;
+}
+
+form.grayed,form.grayed ~ ul.flat-list.buttons {
+    display: none;
+}
+
+p.tagline>a.expand:first-child+em:after,div.collapsed>a.expand:first-child+em:after {
+    visibility: visible;
+    font-size: x-small;
+    font-weight: 700;
+    content: "Comment removed";
+}
+
+p.tagline>a.expand:first-child+em,div.collapsed>a.expand:first-child+em {
+    visibility: hidden;
+    font-size: 0;
+}
+
+div.collapsed>a.expand:first-child+em+time+a.expand,div.collapsed>a.expand:first-child+em+time+em+a.expand {
+    display: none;
+}
+
+div.titlebox span.number:after {
+    content: " open minds";
+}
+
+div.titlebox span.word {
+    display: none;
+}
+
+.titlebox .users-online {
+    display: inline;
+}
+
+.titlebox .users-online:before {
+    display: none;
+}
+
+.titlebox .users-online .number {
+    font-style: italic;
+    font-size: 12px;
+    color: #000;
+}
+
+.titlebox .users-online .number:before {
+    content: "(";
+}
+
+.titlebox .users-online .number:after {
+    content: " here)";
+}
+
+.titlebox .word {
+    display: none;
+}
+
+.side [href=http://goo.gl/eibc40] {
+    position: absolute;
+    margin: 124.5em 0 0 8.3em;
+    height: 1em;
+    z-index: 1;
+}
+
+.comment .report-button {
+    color: #454545;
+}
+
+.comment .report-button .option.main a {
+    color: #FFF !important;
+    font-size: 0;
+}
+
+.comment .report-button .option.main a:after {
+    content: "report to mods";
+    color: #454545 !important;
+    font-size: 10px;
+}
+
+.comment .report-button .option.error a {
+    color: #DE552F !important;
+}
+
+.post-submitter .comment .report-button .option.error:after {
+    content: " - thanks, OP! ";
+    color: red;
+}
+
+.post-submitter .report-button .option:not(.error):hover:before {
+    content: "Please report comments that break our rules";
+}
+
+.post-submitter .comment li a[onclick*=reply] {
+    color: #282;
+    font-size: 10px;
+}
+
+.post-submitter p.title:after {
+    content: "As the OP, you have an advantage when it comes to noticing comments that break our rules (especially 1, 2 and 3 in the sidebar). Please report where necessary. Thank you!";
+    color: #000;
+    background-color: #def;
+    border: 1px solid #333;
+    border-radius: 4px;
+    display: inherit;
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    padding: 5px;
+    text-align: left;
+    max-width: 780px;
+}
+
+#header {
+    font: normal x-small verdana,arial,helvetica,sans-serif;
+}
+
+.login-form-side {
+    margin-top: 20px;
+}
+
+.id-t1_caeb3pl>.entry .noncollapsed .tagline:after {
+    display: block;
+    content: url("http://c.thumbs.redditmedia.com/2SyrFfgjYzZlifIb.png") url("http://c.thumbs.redditmedia.com/1cXgLECiSMjA-Tzt.png") url("http://e.thumbs.redditmedia.com/_g1KfZg3BYbalHyL.png") url("http://c.thumbs.redditmedia.com/2kXJBMZEGrLhpVob.png") url("http://c.thumbs.redditmedia.com/KI7x2D5AC3VtwA3h.png");
+}
+
+.report-button .option:not(.error):hover:before {
+    color: #000;
+    background-color: #def;
+    border: 1px solid #333;
+    border-radius: 4px;
+    content: "Please report comments that violate the rules.";
+    display: block;
+    font-size: 9.5px;
+    font-weight: 700;
+    margin-left: 75px;
+    margin-top: 7px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    z-index: 1000;
+}
+
+.comment .first:hover:before {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    padding: 12px 10px;
+    content: "Linking to /r/bestof? Please change the domain to 'np' (http://np.reddit.com) - see /r/NoParticipation to understand how this helps.";
+    text-align: center;
+    top: 0;
+    width: 100%;
+    left: 0;
+    color: #FFF;
+    font-size: 18px;
+    background-color: #39c;
+    opacity: 1;
+}
+
+.md th:first-child {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.md th:last-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.md th:only-child {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.md table {
+    border-spacing: 0;
+    border-collapse: separate;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    box-shadow: 1px 1px 1px #999;
+    color: #444;
+    font-family: "trebuchet MS","Lucida sans",Arial;
+    font-size: 12px;
+    color: #444;
+    box-shadow: 0 1px 1px #ccc;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.md th {
+    background-color: #dce9f9;
+    border-top: none;
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: 0;
+    background-image: linear-gradient(top,#ebf3fc,#dce9f9);
+}
+
+.md td,.md th {
+    border-left: 1px solid #ccc !important;
+    border-top: 1px solid #ccc !important;
+}
+
+.side .md table tr td:nth-of-type(2) {
+    max-width: 190px;
+    overflow: hidden;
+    padding-right: 0;
+}
+
+.side .md table th,.side .md table td {
+    padding: 4px;
+}
+
+.side table .RESUserTag {
+    display: none;
+}
+
+span.flair.flair-points:after {
+    content: "";
+}
+
+body>.content {
+    margin-top: 45px;
+}
+
+.side .md h6 {
+    position: absolute;
+    top: 98px;
+    margin-right: 310px;
+    left: 10px;
+    background: #def;
+    border: 1px solid #848482;
+    border-radius: 3px;
+    padding: 5.5px;
+    margin: 5px 0 6px;
+    height: auto;
+    font-family: verdana;
+    text-align: center;
+    font-weight: 700;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+form[id^=commentreply] .bottom-area:before {
+    content: "Remember to award a ∆ if that comment changed your view (see sidebar)";
+    display: inline-block;
+    background: #E8F4FF;
+    padding: 3px 6px;
+    border: 1px solid #59c;
+    font-size: 11px;
+}
+
+.commentarea>.usertext textarea {
+    background-image: url(http://b.thumbs.redditmedia.com/cQUsOJNNXPQuaBqa.png);
+    background-repeat: no-repeat;
+    border: 1px solid #ccc;
+}
+
+.commentarea>.usertext textarea:focus {
+    background-position: -504px -104px;
+}
+
+.wiki-page .content .wiki-page-content {
+    margin-right: 340px;
+}
+
+.self .title[href*=modpost] {
+    color: #000 !important;
+}
+
+.self .title[href*=mod_post] {
+    color: #000 !important;
+}
+
+.linkflair-tcmv .title {
+    color: #006400 !important;
+}
+
+.linkflair-tcmv .linkflairlabel {
+    display: none;
+}
+
+.submit-page #title-field .title:after {
+    content: " Your title must have 'CMV:' at the beginning and include a short description of your view.";
+}
+
+.submit-page #text-field .title:after {
+    content: " You must have at least 500 characters in your submission text. There is no maximum limit. A typical post that passes the minimum requirement is usually 4-5 sentences.";
+}
+
+.submit-page #text-desc {
+    display: none;
+}
+
+.submit-page #text-field .gray {
+    display: none;
+}
+
+.submit-page .roundfield {
+    background: #eee;
+}
+
+.submit-page #title-field .title,.submit-page #text-field .title,.submit-page #reddit-field .title {
+    display: block;
+    text-transform: capitalize;
+}
+
+.submit-page #title-field .title:after,.submit-page #text-field .title:after {
+    display: block;
+    color: #DC1623;
+    font-weight: 400;
+    text-transform: none;
+    font-size: .7em;
+}
+
+body {
+    position: relative;
+    font-family: arial,helvetica,sans-serif;
+}
+
+.md p,.wiki ul li {
+    font-family: Verdana,arial,sans-serif;
+    padding: 1px 0;
+}
+
+.link .usertext .md,.usertext table.markhelp,.btn .login-form-side,.infobar,#search,#search input[type=text],.link,#header-bottom-right #userbarToggle,.linkinfo,textarea,.rounded,.sidecontentbox .content {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.side {
+    margin: 0 10px;
+}
+
+.side .md {
+    overflow: hidden;
+}
+
+.titlebox {
+    padding: 0 10px;
+}
+
+.side .md p {
+    font-family: arial,helvetica,sans-serif;
+}
+
+.side .titlebox>h1 {
+    font-size: 38px;
+}
+
+.linkinfo {
+    padding: 15px;
+    border: none;
+    background-color: #CEE3F8;
+}
+
+body.res-nightmode .side .redditname a {
+    color: #DDD !important;
+}
+
+.sidebox.submit .spacer,.sidebox.create {
+    display: none;
+}
+
+.linkinfo .score .word,.linkinfo .score .number {
+    font-size: 15px;
+}
+
+.sidecontentbox .content {
+    border: 1px solid #EAEAEA;
+    background-color: #FAFAFA;
+    padding: 10px;
+}
+
+.icon-menu li {
+    margin: 0 0 5px;
+}
+
+.side h1,.side h2,.side h3 {
+    color: #222;
+}
+
+.side h1 {
+    font-size: 19px;
+}
+
+.side h2 {
+    font-size: 16px;
+}
+
+.side h3 {
+    font-size: 14px;
+}
+
+body.res-nightmode .login-form-side {
+    background-color: #111 !important;
+    color: #DDD !important;
+    border: 1px solid #DDD !important;
+}
+
+body.res-nightmode .login-form-side #remember-me label {
+    color: #DDD !important;
+}
+
+body.res-nightmode .login-form-side #remember-me input {
+    width: auto !important;
+    margin-left: 6px;
+}
+
+body.res-nightmode .side .login-form-side .submit {
+    padding: 4px;
+    background-color: transparent;
+}
+
+body.res-nightmode .side .login-form-side .submit .btn {
+    margin: auto;
+}
+
+.sidebox.submit {
+    width: 300px;
+}
+
+body.res-nightmode .sidebox {
+    padding-left: 0 !important;
+}
+
+body.res-nightmode .sidebox.submit {
+    background-image: none !important;
+}
+
+body.res-nightmode .sidebox.submit .nub {
+    background: #222;
+    border-left: 24px solid #393939;
+}
+
+body.res-nightmode .sidebox,body.res-nightmode .subredditbox,body.res-nightmode .subreddit-info,body.res-nightmode .raisedbox,body.res-nightmode .login-form-side {
+    border: 0 !important;
+    border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    -webkit-border-radius: 0 !important;
+}
+
+body.res-nightmode .sidebox.submit .morelink a {
+    color: #DDD !important;
+}
+
+body.res-nightmode .sidebox.submit:hover {
+    background-color: #444 !important;
+}
+
+body.res-nightmode .sidebox.submit:hover .nub {
+    border-left-color: #444;
+}
+
+.morelink,.morelink:hover,.side a[href*=/#btn] {
+    font-weight: 400;
+    letter-spacing: 0;
+    background: #39C;
+    border: none;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+}
+
+.morelink a,.morelink a:hover {
+    color: #FFF;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 16px;
+}
+
+.morelink .nub,.morelink:hover .nub {
+    top: 0;
+    right: -25px;
+    height: 0;
+    width: 0;
+    background: #FFF;
+    border: 24px solid #449EF8;
+    border-top-width: 15px;
+    border-top-color: transparent;
+    border-bottom-width: 15px;
+    border-bottom-color: transparent;
+    border-right-color: transparent;
+}
+
+.morelink:hover .nub {
+    border-left-color: #56A6F7;
+}
+
+.disabled .morelink a,.disabled .morelink a:hover {
+    cursor: default;
+    color: #AAA;
+}
+
+.morelink:hover {
+    background-color: #56a6f7;
+    border-color: #56a6f7;
+}
+
+.disabled .morelink,.disabled .morelink:hover {
+    background: #f5f5f5;
+    border-color: #f5f5f5;
+}
+
+.disabled .morelink .nub,.disabled .morelink:hover .nub {
+    background: url(http://d.thumbs.redditmedia.com/AZIs-ZJ2jwUNMIJc.png) 0 0 no-repeat transparent;
+}
+
+.sitetable {
+    font-family: verdana,arial,helvetica,sans-serif;
+    clear: left;
+}
+
+.infobar {
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+
+.content {
+    margin: 7.1px 0 0 10px;
+}
+
+.entry {
+    padding: 2px;
+}
+
+.link {
+    overflow: hidden;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid #EAEAEA;
+    background-color: #FAFAFA;
+}
+
+body.res-nightmode .sitetable .thing.link,body.res-nightmode div#siteTable div[onclick=click_thing(this)] {
+    border: 1px solid #4c4c4c !important;
+    background-color: #333 !important;
+}
+
+body.res-nightmode .sitetable .thing.link .keyHighlight {
+    background-color: #363636 !important;
+    border-color: #666 !important;
+    outline-color: #666 !important;
+}
+
+body.res-nightmode .midcol {
+    background-color: #222 !important;
+    padding: 4px;
+}
+
+.link .rank {
+    display: none;
+}
+
+.link.last-clicked {
+    border: 1px dashed #EAEAEA;
+}
+
+body.res-nightmode .link.last-clicked {
+    border-color: #666;
+}
+
+.linklisting>.clearleft {
+    margin: 5px;
+}
+
+.entry .buttons li {
+    display: inline;
+    float: left;
+}
+
+.link .midcol {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.stylesheet-customize-container {
+    width: 100%;
+}
+
+#subreddit_stylesheet {
+    display: block;
+    overflow: hidden;
+    padding-right: 80px;
+}
+
+.sheets {
+    margin: 0;
+}
+
+#stylesheet_contents {
+    font-family: Consolas,Monaco,monospace;
+    padding: 12px;
+    background-color: #222;
+    color: #ace;
+    border: 8px solid #222;
+}
+
+body.res-nightmode #stylesheet_contents {
+    background-color: #111;
+    border-color: #111;
+}
+
+.md table {
+    border: 1px solid #ccc;
+    font-family: Arial,Helvetica,Sans-serif;
+    margin: 10px 0;
+}
+
+body.res-nightmode .md table {
+    border-color: #666;
+}
+
+.side .md table {
+    width: 100%;
+}
+
+.md table * {
+    border: 0;
+}
+
+body.res-nightmode .md table * {
+    color: #ddd;
+}
+
+.md table th {
+    text-align: center;
+}
+
+.md table tr:nth-child(even),.md table thead {
+    background-color: #f6f6f6;
+}
+
+body.res-nightmode .md table tr:nth-child(even),body.res-nightmode .md table thead {
+    background-color: #444;
+}
+
+.md table td,.md table th {
+    border-right: 1px solid #ccc;
+    padding: 4px 8px;
+}
+
+body.res-nightmode .md table td,body.res-nightmode .md table th {
+    border-color: #666;
+}
+
+body:not(.res-nightmode) .md table tbody {
+    color: #444;
+}
+
+body.res-nightmode .md>ul,body.res-nightmode .md>ol {
+    border-color: #666;
+}
+
+.side .md ul,.side .md ol {
+    margin: 2px 15px;
+    padding: 2px 6px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+body.res-nightmode .side .md ul,body.res-nightmode .side .md ol {
+    background-color: #444;
+}
+
+.side .md ul {
+    list-style: disc outside;
+}
+
+.side .md ol {
+    list-style: decimal outside;
+}
+
+.side .md ul li,.side .md ol li {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.side .md ul li ul,.side .md ol li ol {
+    margin: 8px 4px;
+}
+
+body.res-nightmode .side .md ul li:nth-child(odd),body.res-nightmode .side .md ol li:nth-child(odd) {
+    background-color: #222;
+}
+
+.side blockquote+hr {
+    border-width: 0;
+    width: 0;
+    background-color: transparent;
+    margin: 20px 0 0;
+}
+
+body.res-nightmode .side hr {
+    border: 0 !important;
+    border-bottom: 1px solid #000 !important;
+}
+
+.side blockquote {
+    border: 0 none;
+    padding: 15px;
+    margin: 0;
+    border: 1px solid #CCC;
+    background-color: #F5F5F5;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.side h4,.side h5,.side h6 {
+    height: 0;
+}
+
+.side blockquote h1 ~ p {
+    margin-left: 21px;
+}
+
+.side blockquote h1 {
+    background-color: transparent !important;
+    margin-bottom: 15px;
+}
+
+.side blockquote pre,.side blockquote code {
+    color: #222 !important;
+}
+
+.side h6+blockquote p,.side h5+blockquote p,.side h4+blockquote p {
+    color: #000;
+}
+
+.side h6+blockquote a,.side h5+blockquote a,.side h4+blockquote a {
+    color: #369;
+}
+
+.side .spacer .md h1,.side .spacer .md h2,.side .spacer .md h3 {
+    background: transparent !important;
+}
+
+.side blockquote+p,.side p+blockquote,.side p+h4,.side p+h5,.side p+h6 {
+    margin-top: 15px;
+}
+
+body.res-nightmode .side blockquote h1,body.res-nightmode .side blockquote h1 a {
+    color: #EEE !important;
+}
+
+body.res-nightmode .side h4+blockquote,body.res-nightmode .side h5+blockquote,body.res-nightmode .side h6+blockquote {
+    background-color: #111;
+}
+
+.md h4+table {
+    border-color: #9EF886;
+}
+
+.md h4+table td,.md h4+table th {
+    border-right-color: #9EF886;
+}
+
+.md h4+table tr:nth-child(even),.md h4+table thead {
+    background-color: #E9FFE6;
+}
+
+.md h5+table {
+    border-color: #F4F225;
+}
+
+.md h5+table td,.md h5+table th {
+    border-right-color: #F4F225;
+}
+
+.md h5+table tr:nth-child(even),.md h5+table thead {
+    background-color: #FFFFE6;
+}
+
+.md h6+table {
+    border-color: #FF9185;
+}
+
+.md h6+table td,.md h6+table th {
+    border-right-color: #FF9185;
+}
+
+.md h6+table tr:nth-child(even),.md h6+table thead {
+    background-color: #FEF0F0;
+}
+
+.md h4+ul,.md h4+ol {
+    border-left-color: #9EF886;
+}
+
+.md h4+ul li:nth-child(odd),.md h4+ol li:nth-child(odd) {
+    background-color: #E9FFE6;
+}
+
+.md h5+ul,.md h5+ol {
+    border-left-color: #F4F225;
+}
+
+.md h5+ul li:nth-child(odd),.md h5+ol li:nth-child(odd) {
+    background-color: #FFFFE6;
+}
+
+.md h6+ul,.md h6+ol {
+    border-left-color: #FF9185;
+}
+
+.md h6+ul li:nth-child(odd),.md h6+ol li:nth-child(odd) {
+    background-color: #FEF0F0;
+}
+
+.side h6+blockquote {
+    display: block;
+    background-color: #FEF0F0;
+    border: 1px solid #FF9185;
+}
+
+.side h5+blockquote {
+    display: block;
+    background-color: #FFFFE6;
+    border: 1px solid #F4F225;
+}
+
+.side h4+blockquote {
+    display: block;
+    background-color: #E9FFE6;
+    border: 1px solid #9EF886;
+}
+
+body.res-nightmode .md h4+table {
+    border-color: #9EF886;
+}
+
+body.res-nightmode .md h4+table td,body.res-nightmode .md h4+table th {
+    border-right-color: #9EF886;
+}
+
+body.res-nightmode .md h4+table tr:nth-child(even),body.res-nightmode .md h4+table thead {
+    background-color: #207807;
+}
+
+body.res-nightmode .md h5+table {
+    border-color: #F4F225;
+}
+
+body.res-nightmode .md h5+table td,body.res-nightmode .md h5+table th {
+    border-right-color: #F4F225;
+}
+
+body.res-nightmode .md h5+table tr:nth-child(even),body.res-nightmode .md h5+table thead {
+    background-color: #626105;
+}
+
+body.res-nightmode .md h6+table {
+    border-color: #FF9185;
+}
+
+body.res-nightmode .md h6+table td,body.res-nightmode .md h6+table th {
+    border-right-color: #FF9185;
+}
+
+body.res-nightmode .md h6+table tr:nth-child(even),body.res-nightmode .md h6+table thead {
+    background-color: #670808;
+}
+
+body.res-nightmode .md h4+ul,body.res-nightmode .md h4+ol {
+    border-left-color: #9EF886;
+}
+
+body.res-nightmode .md h4+ul li:nth-child(odd),body.res-nightmode .md h4+ol li:nth-child(odd) {
+    background-color: #207807;
+}
+
+body.res-nightmode .md h5+ul,body.res-nightmode .md h5+ol {
+    border-left-color: #F4F225;
+}
+
+body.res-nightmode .md h5+ul li:nth-child(odd),body.res-nightmode .md h5+ol li:nth-child(odd) {
+    background-color: #626105;
+}
+
+body.res-nightmode .md h6+ul,body.res-nightmode .md h6+ol {
+    border-left-color: #FF9185;
+}
+
+body.res-nightmode .md h6+ul li:nth-child(odd),body.res-nightmode .md h6+ol li:nth-child(odd) {
+    background-color: #670808;
+}
+
+.btn,button,.side a[href*=/#btn] {
+    background-color: #39C;
+    border: none;
+    color: #FFF;
+    padding: 6px;
+    margin: 5px 5px 5px 0;
+    cursor: pointer;
+    font-size: 13px;
+    font-family: arial,helvetica,sans-serif;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.side a[href*=/#btn] {
+    text-align: center;
+    display: block;
+    width: auto;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 29px;
+    margin: 10px 0;
+}
+
+body.res-nightmode .btn,body.res-nightmode button,body.res-nightmode .side a[href*=/#btn] {
+    color: #444 !important;
+    background-color: #CCC !important;
+}
+
+.btn a {
+    color: #FFF;
+}
+
+body.res-nightmode .btn a {
+    color: #444 !important;
+}
+
+.btn:hover,button:hover,.side a[href*=/#btn]:hover {
+    background-color: #56a6f7;
+    border-color: #56a6f7;
+}
+
+body.res-nightmode .btn:hover,body.res-nightmode button:hover,body.res-nightmode .side a[href*=/#btn]:hover {
+    background-color: #DDD !important;
+    border-color: #DDD;
+}
+
+.usertext-body pre {
+    margin: 10px 0;
+    padding: 10px;
+    color: #222 !important;
+}
+
+.usertext-body pre,.usertext-body p>code {
+    background: #f7f7f7;
+    border: 1px solid #ccc;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 11px;
+    color: #222 !important;
+    overflow: auto;
+}
+
+.usertext-body code {
+    color: #222 !important;
+    font-family: Consolas,Monaco,monospace;
+    line-height: 1.5em;
+}
+
+.usertext-body p>code {
+    padding: 0 3px;
+    color: #222 !important;
+}
+
+a[href=#s] {
+    font-size: 0;
+    visibility: hidden;
+    cursor: default;
+    display: inline-block;
+}
+
+a[href=#s]::after {
+    content: attr(title);
+    background: #cee3f8;
+    color: #cee3f8;
+    font-size: small;
+    visibility: visible;
+}
+
+body.res-nightmode a[href=#s]::after {
+    content: attr(title);
+    background: #666;
+    color: #666;
+    font-size: small;
+    visibility: visible;
+}
+
+a[href=#s]:hover::after,a[href=#s]:active::after {
+    color: #000;
+    background: transparent;
+    text-decoration: none;
+    font-size: small;
+}
+
+body.res-nightmode a[href=#s]:hover::after,body.res-nightmode a[href=#s]:active::after {
+    color: #DDD;
+    background: transparent;
+    text-decoration: none;
+    font-size: small;
+}
+
+.side a[href*=#icon-] {
+    color: #000 !important;
+    cursor: default;
+}
+
+.side a[href*=#icon-]:hover {
+    text-decoration: none;
+}
+
+.side a[href*=#icon-]::before {
+    display: inline-block;
+    height: 16px;
+    width: 16px;
+    content: "";
+    margin: 0 5px -1px 0;
+    background: url(http://d.thumbs.redditmedia.com/AZIs-ZJ2jwUNMIJc.png) 30px 30px no-repeat;
+}
+
+.side a[href=#icon-exclamation]::before {
+    background-position: -16px -32px;
+}
+
+.side a[href=#icon-information]::before {
+    background-position: -54px -51px;
+}
+
+.side a[href=#icon-lightbulb]::before {
+    background-position: -16px -51px;
+}
+
+.side a[href=#icon-comments]::before {
+    background-position: -35px -89px;
+}
+
+.side a[href=#icon-unhappy]::before {
+    background-position: -73px -89px;
+}
+
+.side a[href=#icon-check]::before {
+    background-position: -73px -51px;
+}
+
+.side a[href=#icon-clock]::before {
+    background-position: -35px -51px;
+}
+
+.side a[href=#icon-cross]::before {
+    background-position: -35px -70px;
+}
+
+.side a[href=#icon-smile]::before {
+    background-position: -54px -89px;
+}
+
+.side a[href=#icon-error]::before {
+    background-position: -54px -32px;
+}
+
+.side a[href=#icon-note]::before {
+    background-position: -54px -70px;
+}
+
+.side a[href=#icon-star]::before {
+    background-position: -73px -32px;
+}
+
+.side a[href=#icon-help]::before {
+    background-position: -16px -70px;
+}
+
+.side a[href=#icon-time]::before {
+    background-position: -73px -70px;
+}
+
+.side a[href=#icon-bell]::before {
+    background-position: -35px -32px;
+}
+
+.side a[href=#icon-eye]::before {
+    background-position: -16px -89px;
+}
+
+div.sidebox.create {
+    display: none;
+}
+
+.arrow.down {
+    display: none;
+}
+
+.comment .arrow.down {
+    visibility: visible;
+    display: block;
+}
+
+.titlebox .usertext-body ol {
+    border-radius: 1px;
+    border: 1px solid #51AEFF;
+    background-color: #E8F4FF;
+    list-style-type: decimal;
+    padding: 0 20px 5px 35px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 100%;
+    text-align: inherit;
+}
+
+.titlebox .usertext-body li {
+    margin: 7px 0;
+}
+
+.titlebox .usertext-body ol ol li {
+    margin: 5px 0;
+}
+
+.titlebox .usertext-body ol ol {
+    list-style-type: lower-alpha;
+    padding: 0;
+    margin-left: 20px;
+    border-width: 0;
+    font-size: 100%;
+}
+
+.side .md ol:nth-of-type(1) {
+    list-style-type: upper-alpha;
+}
+
+#header a[href$=/controversial/] {
+    display: none;
+}
+
+:not(.comment) .comment {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body:not(.res-nightmode) .commentarea .comment {
+    padding: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    background-color: #F6F6F6 !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment {
+    background-color: #FAFAFA !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment {
+    background-color: #F6F6F6 !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment {
+    background-color: #FAFAFA !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment {
+    background-color: #F6F6F6 !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment {
+    background-color: #FAFAFA !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #F6F6F6 !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #FAFAFA !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #F6F6F6 !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #FAFAFA !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #F6F6F6 !important;
+}
+
+body:not(.res-nightmode) .commentarea .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #FAFAFA !important;
+}
+
+.res .commentarea .comment {
+    margin: 0 10px 0 0 !important;
+    padding: 5px !important;
+    margin-right: 10px !important;
+    border-radius: 0 !important;
+    border-color: lightgray !important;
+}
+
+.res .commentarea .comment:hover {
+    border-color: lightgray !important;
+}
+
+.listing-page .thing.even {
+    background-color: #F6F6F6;
+}
+
+.listing-page .thing.odd {
+    background-color: #EDEDFF;
+}
+
+.side .nub {
+    display: none;
+}
+
+.search-page .side {
+    margin-top: 35px;
+}
+
+.search-page .raisedbox {
+    margin-right: 320px;
+}
+
+s,strike,del {
+    text-decoration: line-through;
+    color: silver;
+}
+
+.side .spacer .helplink {
+    position: relative;
+    top: 1.8em;
+    background: #39C;
+    padding: 6px 0;
+    text-indent: 11px;
+    z-index: 1;
+    color: #fff;
+    font-weight: 400;
+    font-size: 11px;
+    width: 299px;
+    display: block;
+}
+
+.side .spacer .helplink:hover {
+    background: #73C2FB;
+}
+
+.side .spacer .helplink+.title {
+    position: relative;
+    top: -2.3em;
+}
+
+.helplink ~ .content .flair {
+    display: none;
+}
+
+.bottom .flair {
+    display: none;
+}
+
+.sidecontentbox .helplink+.title h1 {
+    margin-left: 11px;
+}
+
+.comment .md ol,.comment .md ul {
+    margin: 10px 2em 10px 2.5em;
+}
+
+.commentarea>.nestedlisting>.comment {
+    margin-left: 1px;
+}
+
+.expando-button.image.collapsedExpando {
+    padding: 0;
+}
+
+.linkinfo {
+    background-color: #FFF;
+    color: #363636;
+    text-align: center;
+    font-size: 11px;
+    padding: 10px 0 5px;
+    border: 1px solid #C1BFBF;
+    width: 298px;
+    margin-top: 8px;
+    margin-bottom: -11px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0 !important;
+}
+
+.linkinfo .downvotes .number,.linkinfo .upvotes .number,.linkinfo .score .number {
+    font-size: 20px !important;
+    display: block;
+    font-weight: 400 !important;
+}
+
+.linkinfo .score .word {
+    display: none;
+}
+
+.linkinfo .score {
+    font-size: 11px;
+    display: block;
+    min-width: 80px;
+    margin-left: 30px !important;
+}
+
+.linkinfo .downvotes .word,.linkinfo .upvotes .word {
+    font-size: 11px;
+}
+
+.linkinfo .upvotes,.linkinfo .downvotes,.linkinfo .score {
+    float: left;
+    padding: 32px 10px 34px;
+    margin: 8px 10px 10px 8px;
+    text-align: center;
+}
+
+.linkinfo .score,.linkinfo .upvotes {
+    border-right: 1px solid #C1BFBF;
+    border-left: 1px solid #C1BFBF;
+}
+
+.linkinfo .score {
+    display: none;
+}
+
+.linkinfo .downvotes {
+    display: none;
+}
+
+.linkinfo .upvotes {
+    margin-left: 115px;
+}
+
+.linkinfo .shortlink {
+    clear: both !important;
+    font-size: 10px;
+    margin: 0 20px;
+    border: 1px solid #E7E6E6;
+    text-align: center;
+}
+
+.linkinfo .shortlink input {
+    background: transparent;
+    border: 0;
+    padding-left: 8px;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkinfo .date {
+    padding: 8px;
+    margin-top: -10px;
+    margin-bottom: 7px;
+    color: #333;
+    background-color: #C9D6E2;
+    font-size: 12px;
+}
+
+.comment .entry.dislikes {
+    color: #8B0000;
+}
+
+.arrow.down:hover:before {
+    position: fixed;
+    display: block;
+    z-index: 1000;
+    padding: 6px 20px;
+    content: "Downvotes don't change views! Please report rule violations.";
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    color: #FFF;
+    font-size: 18px;
+    background-color: #ea0000;
+    opacity: 0.9;
+}
+
+body:lang(np) .arrow {
+    visibility: hidden !important;
+}
+
+body:lang(np) .usertext-edit,body:lang(np) .sidebox.submit,body:lang(np) .commentingAs,body:lang(np) .markdownEditor,body:lang(np) .report-button,body:lang(np) a[onclick*="return reply(this)"],body:lang(np) .helplink {
+    display: none !important;
+}
+
+body:lang(np) #siteTable:before {
+    content: "You have been linked to a read-only version of CMV. Please respect the community by not voting.";
+    display: block;
+    max-width: 800px;
+    background-color: #F6E69F;
+    padding: 5px 10px;
+    margin: 5px 305px 5px 0;
+    border: 1px solid orange;
+    font-size: small;
+}
+
+body:lang(np) .entry.likes:not(.reddit-entry):before,body:lang(np) .entry.dislikes:not(.reddit-entry):before {
+    content: "Please do not vote or comment when you come from external subreddits.";
+    display: block;
+    color: red;
+    font-size: small;
+}
+
+body.res:lang(np) div.titlebox>div[style*="display: block !important"] input:before,body.res:lang(np) div.titlebox>div[style*="display: block !important"] label:before,body.res:lang(np)>div#keyCommandLineWidget>form:before {
+    content: "Removed by NoParticipation" !important;
+    margin-left: -10000px !important;
+}
+
+body.wiki-page:lang(np) span.pageactions a.wikiaction-edit:not(.wikiaction-current),body.wiki-page:lang(np) div.wiki-page-content form#editform label[for=reason],body.wiki-page:lang(np) div.wiki-page-content form#editform input#wiki_revision_reason,body.wiki-page:lang(np) div.wiki-page-content form#editform input[type=submit] {
+    display: none !important;
+}
+
+.side .linkinfo {
+    position: relative;
+}
+
+.side .upvotes .word:before,.side .upvotes .word:after {
+    content: "";
+    background: url(http://b.thumbs.redditmedia.com/1_V_oYfcL9OtQYAa.png);
+    position: absolute;
+    top: 31px;
+    left: 15px;
+    width: 95px;
+    height: 120px;
+}
+
+.side .upvotes .word:after {
+    background: url(http://f.thumbs.redditmedia.com/uGYXjMlKf9-PuDZ_.png);
+    left: auto;
+    right: 12px;
+    width: 97px;
+}
+
+.comments-page .side .spacer:nth-of-type(5) ~ .spacer {
+    border-left: 1px solid #d3d3d3;
+}
+
+.comments-page .side {
+    border-bottom: 1px solid #d3d3d3;
+}
+
+.side .spacer {
+    margin: 0;
+}
+
+.submit-text {
+    display: none;
+}
+
+.titlebox {
+    margin-bottom: 35px;
+    padding: 10px 10px 0;
+    border: 1px solid #d3d3d3;
+}
+
+.titlebox .bottom {
+    position: absolute;
+    padding-top: 5px;
+    border: 0;
+}
+
+.titlebox .age {
+    margin-left: 55px;
+}
+
+.titlebox form.toggle {
+    background-color: transparent;
+}
+
+.titlebox .usertext {
+    margin: 15px 0 8px;
+    line-height: 120%;
+    font-size: small;
+}
+
+.titlebox .usertext .md {
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+}
+
+.titlebox .usertext .md h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #000;
+}
+
+.titlebox .usertext .md>h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    background-repeat: repeat-x;
+    background-position: top;
+    color: #FFF;
+    width: 287px;
+    padding: 5px 10px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-right: 13px;
+    margin-left: -18px;
+    border-bottom: 1px solid #074075;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    z-index: 100;
+}
+
+.titlebox .usertext .md h2 {
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #000;
+}
+
+.titlebox .usertext .md>h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #39C !important;
+    color: #FFF;
+    padding: 5px 10px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-right: 13px;
+    margin-left: -18px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    z-index: 100;
+}
+
+.titlebox .usertext .md>h1:after {
+    display: block !important;
+    content: "" !important;
+    border-color: transparent #000 transparent transparent !important;
+    border-style: solid !important;
+    border-width: 15px !important;
+    height: 0 !important;
+    width: 0 !important;
+    position: absolute !important;
+    z-index: -1 !important;
+    margin-left: -35px !important;
+    margin-top: -10px !important;
+}
+
+.titlebox .md h1 {
+    font-size: medium;
+    font-weight: 400;
+    color: #FFF !important;
+    margin-bottom: 5px;
+    border: 0;
+}
+
+.titlebox .md h2,.md h3,.md h4,.md h5 {
+    font-size: small;
+    font-weight: 400;
+    color: #000 !important;
+    margin-bottom: 5px;
+    border: 0;
+}
+
+.comments-page .side .titlebox .usertext .md>h1 {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #39C !important;
+    color: #FFF;
+    padding: 5px 10px;
+    padding-left: 20px;
+    padding-right: 0;
+    margin-right: 13px;
+    margin-left: -10px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    z-index: 100;
+}
+
+.comments-page .side .titlebox .usertext .md>h1:after {
+    display: block;
+    content: "";
+    border-color: transparent transparent transparent #000 !important;
+    border-style: solid !important;
+    border-width: 15px;
+    height: 0;
+    width: 0;
+    position: absolute;
+    z-index: -1;
+    margin-left: 272px !important;
+    margin-top: -10px;
+}
+
+.usertext-body pre {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.usertext-body pre,.usertext-body p>code {
+    background: #f6f6f6;
+    border: 1px solid #ccc;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -khtml-border-radius: 2px;
+    border-radius: 2px;
+}
+
+.usertext-body code {
+    color: #222;
+    font-family: Consolas,Monaco,monospace;
+    line-height: 1.5em;
+}
+
+.usertext-body p>code {
+    padding: 0 3px;
+}
+
+.side .titlebox * {
+    border-radius: 0 !important;
+    -moz-border-radius-bottomleft: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+}
+
+.titlebox .md ul {
+    margin: 0 !important;
+}
+
+.titlebox ul li {
+    width: 272px !important;
+    position: relative !important;
+    left: -16px !important;
+    background-color: #f2f2f2 !important;
+    border: none !important;
+    color: #000 !important;
+    display: none !important;
+    padding: 7px 7px 9px 13px !important;
+    margin: 0 0 -1px !important;
+    text-align: left !important;
+    border-top: 1px solid #CCC !important;
+    border-left: 6px solid #DDD !important;
+}
+
+.titlebox ul li:hover {
+    background-color: #DDD !important;
+}
+
+.titlebox ul li:nth-child(1) {
+    display: block !important;
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif !important;
+    font-weight: 300 !important;
+    background-color: #def !important;
+    color: #000 !important;
+    border-bottom: 1px solid #51AEFF !important;
+    border-top: 1px solid #51AEFF !important;
+    display: inline-block !important;
+    font-size: 1.4em !important;
+    border-left: 6px solid #39C !important;
+    border-top: none !important;
+    font-size: 15px !important;
+    padding: 8px 12px 9px 8px !important;
+}
+
+.titlebox ul li:nth-child(1):hover {
+    border-left: 6px solid #39C !important;
+    background-color: #F2F2F2 !important;
+    color: #000 !important;
+}
+
+.titlebox ul:hover>li {
+    display: block !important;
+}
+
+.titlebox ul li a:hover {
+    color: #000 !important;
+}
+
+.side .titlebox hr {
+    border: none !important;
+    margin-bottom: 10px !important;
+}
+
+.side .titlebox h1 a {
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.side>.spacer:nth-child(2) {
+    margin-top: 15px;
+}
+
+.side>.spacer:nth-child(3) {
+    padding-bottom: 0;
+}
+
+.side .md>p+hr {
+    clear: both;
+}
+
+.side .md a[href*=http://goo.gl/6qmyPt] {
+    background: #39c;
+}
+
+.side .md a[href*=http://goo.gl/6qmyPt]:hover {
+    background: #56a6f7;
+}
+
+.side .md a[href*=http://goo.gl/6qmyPt] {
+    border-radius: 2px;
+    color: #FFF !important;
+    display: block;
+    clear: both;
+    font: 11px Verdana,Arial,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 24px;
+    width: 292px;
+    line-height: 24px;
+    margin-bottom: 6px;
+    min-width: 64px !important;
+    outline: 0;
+    padding: 5px 4px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+    right: 10px;
+    top: 132px;
+}
+
+#searchexpando {
+    position: absolute;
+    z-index: 3;
+}
+
+.side a[href*=#link] {
+    text-decoration: none;
+    color: inherit;
+    font-family: Verdana,Arial,sans-serif;
+    padding: 13px;
+    font-size: 14px !important;
+    padding-left: 95px;
+    padding-right: 80px;
+    margin-bottom: 0;
+}
+
+.side a[href*=#link2] {
+    text-decoration: none;
+    color: inherit;
+    font-family: Verdana,Arial,sans-serif;
+    padding: 13px;
+    font-size: 14px !important;
+    padding-left: 75px;
+    padding-right: 80px;
+    margin-bottom: 0;
+}
+
+.side a[href*=#link3] {
+    text-decoration: none;
+    color: inherit;
+    font-family: Verdana,Arial,sans-serif;
+    padding: 13px;
+    font-size: 14px !important;
+    padding-left: 65px;
+    padding-right: 80px;
+    margin-bottom: 0;
+}
+
+.side .md h6+h1+p+p br,.side .md h6+h1+p+p+hr {
+    display: none;
+}
+
+.sidebox.submit:hover:after {
+    content: url("http://f.thumbs.redditmedia.com/5njBFaDY5X4tAhQA.png");
+    position: absolute;
+    top: 93px;
+    right: 310px;
+}
+
+.sidebox.submit {
+    margin-bottom: -4px;
+}
+
+.side .md h6+h1+p+p br,.side .md h6+h1+p+p+hr {
+    display: none;
+}
+
+.titlebox .usertext .md {
+    margin-top: -14px;
+}
+
+a[href=/r/changemyview/submit?selftext=true#/submit/c/blue]:hover:after {
+    content: url("http://f.thumbs.redditmedia.com/5njBFaDY5X4tAhQA.png");
+    position: absolute;
+    top: -44px;
+    right: 305px;
+}
+
+.wiki div.toc>ul {
+    width: 500px;
+    overflow: hidden;
+    background-color: #fff !important;
+    border: 1px solid #666;
+    padding-top: 30px !important;
+}
+
+.wiki div.toc>ul:before {
+    display: block !important;
+    content: "Contents";
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 700;
+    color: #666;
+    text-align: center;
+    margin-top: -25px;
+    width: 500px;
+    position: absolute !important;
+}
+
+.wiki div.toc ul {
+    list-style-type: circle !important;
+}
+
+.md.wiki>.toc>ul ul ul {
+    display: none;
+}
+
+.md.wiki>.toc>ul ul {
+    display: none;
+    position: absolute;
+    background-color: #efefef;
+    margin: -1px 0 0 5px !important;
+    padding: 3px 3px 3px 5px !important;
+    border: 1px solid #8D9CAA !important;
+}
+
+.md.wiki>.toc>ul {
+    padding: 3px 25px !important;
+    background-color: #efefef;
+}
+
+.wiki a:hover {
+    text-decoration: underline;
+}
+
+.wiki-page .md p,.wiki-page .md ul {
+    line-height: 150%;
+}
+
+.wiki-page .md h1,.wiki-page .md h2,.wiki-page .md h3,.wiki-page .md h4,.wiki-page .md h5,.wiki-page .md h6 {
+    font-family: Verdana,Tahoma,sans-serif;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h1 {
+    border-bottom: solid #000 1px;
+    border-top: solid #000 1px;
+    border-left: solid #369 6px;
+    border-right: solid #000 1px;
+    padding: .25em;
+    color: #111;
+    margin-top: 20px;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h2 {
+    font-size: 1.3em;
+    color: #555;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h3 {
+    font-size: 1.1em;
+    color: #444;
+    padding-left: 15px;
+}
+
+body.wiki-page .wiki-page-content .md.wiki h4 {
+    font-size: .9em;
+    color: #333;
+    padding-left: 20px;
+}
+
+.wiki a[href*=#link] {
+    color: #222 !important;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.comment .md h5+h6+h4+p,.comment .md h5+h6+h4+p+hr,.comment .md h5+h6+h4+p+hr+blockquote,.comment .md h5+h6+h4+p+hr+blockquote+hr,.comment .md h5+h6+h4+p+hr+blockquote+hr+p,.comment .md h5+h6+h4+p+hr+blockquote+hr+p+p {
+    display: none;
+}
+
+.comment .md:hover h5+h6+h4+p,.comment .md:hover h5+h6+h4+p+hr,.comment .md:hover h5+h6+h4+p+hr+blockquote,.comment .md:hover h5+h6+h4+p+hr+blockquote+hr,.comment .md:hover h5+h6+h4+p+hr+blockquote+hr+p,.comment .md:hover h5+h6+h4+p+hr+blockquote+hr+p+p {
+    display: block;
+}
+
+.comment .md h5+h6+h4:after {
+    content: "Autowikibot post. Hover to view";
+}
+
+.comment .md:hover h5+h6+h4:after {
+    content: "";
+}
+
+a[href=#s] {
+    padding: 0 2px;
+    color: #fff;
+    background: #000;
+    cursor: text;
+    border-radius: 3px;
+}
+
+a[href=#s]:hover,a[href=#s]:active {
+    color: #ff0;
+}
+
+a[href=#s]:after {
+    content: attr(title);
+    padding: 0 8px;
+}
+
+a[href=#s]:hover:after,a[href=#s]:active:after {
+    color: #fff;
+}
+
+a[href=#s]:after {
+    background: #000;
+    color: #000;
+}
+
+.subscriber .id-t3_1cqfjq:before {
+    content: "The mods think this thread smells funny. Comment at your own risk!";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_1c5rvw:before {
+    content: "Warning: The mods think this thread smells.";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.comments-page:not(.subscriber) .id-t3_1c5rvw:before {
+    content: "If you are here as a result of a crosspost, please read the sidebar before commenting and respect the aims of this subreddit. Thanks! :)";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_1b6krc:before {
+    content: "Warning: This thread has been crossposted to SRSsucks and sjsucks.";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_1bk94x:before {
+    content: "The downvoting in this post is shameful. Downvotes do not change views!";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.comments-page:not(.subscriber) .id-t3_1b6krc:before {
+    content: "If you are here as a result of a crosspost, please read the sidebar before commenting and respect the aims of this subreddit. Thanks! :)";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_19xeoe:before {
+    content: "Warning: This thread has been crossposted to Anarcho_Capitalism.";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.comments-page:not(.subscriber) .id-t3_19xeoe:before {
+    content: "If you are here as a result of the crosspost to Anarcho_Capitalism, please read the sidebar before commenting and respect the aims of this subreddit. Thanks! :)";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_1dhc4f:before {
+    content: "Warning: This thread has been crossposted to MensRights.";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.comments-page:not(.subscriber) .id-1dhc4f:before {
+    content: "If you are here as a result of a crosspost, please read the sidebar before commenting and respect the aims of this subreddit. Thanks! :)";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_1dw0oc:before {
+    content: "Warning: This thread has been crossposted to ShitRedditSays.";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.comments-page:not(.subscriber) .id-1dw0oc:before {
+    content: "If you are here as a result of a crosspost, please read the sidebar before commenting and respect the aims of this subreddit. Thanks! :)";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_1pn976:before {
+    content: "Warning: This thread has been crossposted to /r/anarcho_capitalism";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.comments-page:not(.subscriber) .id-1pn976:before {
+    content: "If you are here as a result of a crosspost, please read the sidebar before commenting and respect the aims of this subreddit. Thanks! :)";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.subscriber .id-t3_1u9994:before {
+    content: "Warning: This thread has been crossposted to /r/theredpill and /r/thebluepill";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.comments-page:not(.subscriber) .id-1u9994:before {
+    content: "If you are here as a result of a crosspost, please read the sidebar before commenting and respect the aims of this subreddit. Thanks! :)";
+    border: 1px solid #FF9185;
+    border-radius: 4px;
+    margin: 4px 0 10px;
+    background-color: #FEF0F0;
+    display: inline-block;
+    padding: 4px;
+}
