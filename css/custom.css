@@ -265,6 +265,15 @@
     display: block;
 }
 
+.flair:before {
+    background-position: 0 0px;
+    content: "";
+    display: inline-block;
+    height: 21px;
+    vertical-align: bottom;
+    width: 18px;
+}
+
 .flair-wolf {
     border: none;
     background:none;
@@ -272,53 +281,20 @@
 
 .flair-wolf:before {
     background: url(%%wolf%%) no-repeat scroll -9999px -9999px transparent;
-    display: inline-block;
-    height: 21px;
-    vertical-align: bottom;
-    width: 18px
-}
-
-.flair-wolf:before {
-    content: "";
-    background-position: 0 0px
 }
 
 .flair-star:before {
     background: url(%%star%%) no-repeat scroll -9999px -9999px transparent;
-    display: inline-block;
-    height: 21px;
-    vertical-align: bottom;
-    width: 21px;
-    content: "";
-    background-position: 0 0px;
 }
 
 .flair-starN1:before {
     background: url(%%starN1%%) no-repeat scroll -9999px -9999px transparent;
-    display: inline-block;
-    height: 21px;
-    vertical-align: bottom;
-    width: 30px;
-    content: "";
-    background-position: 0 0px;
 }
 
 .flair-starN2:before {
     background: url(%%starN2%%) no-repeat scroll -9999px -9999px transparent;
-    display: inline-block;
-    height: 21px;
-    vertical-align: bottom;
-    width: 30px;
-    content: "";
-    background-position: 0 0px;
 }
 
 .flair-starN3:before {
     background: url(%%starN3%%) no-repeat scroll -9999px -9999px transparent;
-    display: inline-block;
-    height: 21px;
-    vertical-align: bottom;
-    width: 30px;
-    content: "";
-    background-position: 0 0px;
 }
